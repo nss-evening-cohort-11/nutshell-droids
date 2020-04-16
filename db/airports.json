@@ -26,7 +26,7 @@
 		"city": "New York City",
 		"state": "NY",
 		"country": "US",
-		"airport code": "JFK",
+		"airportCode": "JFK",
 		"isInternational": true
 	},
 	"airport4": {
@@ -36,7 +36,7 @@
 		"city": "Honolulu",
 		"state": "Hawaii",
 		"country": "US",
-		"airport code": "HNL",
+		"airportCode": "HNL",
 		"isInternational": false
 	},
 	"airport5": {
@@ -46,7 +46,7 @@
 		"city": "Edinburgh",
 		"state": "N/A",
 		"country": "SCT",
-		"airport code": "EDI",
+		"airportCode": "EDI",
 		"isInternational": true
 	},
 	"airport6": {
@@ -76,7 +76,7 @@
 		"city": "Chicago",
 		"state": "IL",
 		"country": "US",
-		"airport code": "ORD",
+		"airportCode": "ORD",
 		"isInternational": false
 	},
 	"airport9": {
@@ -86,7 +86,7 @@
 		"city": "Rome",
 		"state": "N/A",
 		"country": "ITL",
-		"airport code": "FCO",
+		"airportCode": "FCO",
 		"isInternational": true
 	},
 	"airport10": {
@@ -96,7 +96,7 @@
 		"city": "Cancun",
 		"state": "N/A",
 		"country": "MEX",
-		"airport code": "CUN",
+		"airportCode": "CUN",
 		"isInternational": true
 	},
 	"airport11": {
@@ -106,7 +106,7 @@
 		"city": "Izumisano",
 		"state": "",
 		"country": "JP",
-		"airport code": "KIX",
+		"airportCode": "KIX",
 		"isInternational": true
 	},
 	"airport12": {
@@ -116,7 +116,7 @@
 		"city": "Phoenix",
 		"state": "AZ",
 		"country": "US",
-		"airport code": "PHX",
+		"airportCode": "PHX",
 		"isInternational": false
 	}
 }
