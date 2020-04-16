@@ -8,9 +8,9 @@ import '../styles/main.scss';
 
 const init = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
-  auth.loginButton();
-  authData.checkLoginStatus();
   myNavbar.printNavbar();
+  authData.checkLoginStatus();
+  auth.loginButton();
 };
 
 init();
