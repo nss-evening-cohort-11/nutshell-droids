@@ -1,7 +1,6 @@
 
 import firebase from 'firebase/app';
 import 'firebase/auth';
-import utils from '../utils';
 
 const authDiv = $('#auth');
 
@@ -10,11 +9,11 @@ const checkLoginStatus = () => {
     if (user) {
       // person is logged in
       authDiv.addClass('hide');
-      const domString = 'You are now logged in';
-      utils.printToDom('temp', domString);
+      $('.navbar-logout-button').removeClass('hide');
     } else {
       // person is NOT logged in
       authDiv.removeClass('hide');
+      $('.navbar-logout-button').addClass('hide');
     }
   });
 };
