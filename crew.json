@@ -2,98 +2,98 @@
 	"crew1": {
 		"uid": "1",
 		"name": "Kristin Bell",
-		"base city": "Nashville",
+		"baseCity": "Nashville",
 		"position": "Flight Attendant",
-		"hire date": "02/24/2019",
+		"hireDate": "02/24/2019",
 		"img": "https://drive.google.com/open?id=1FeMjXxZCzSXJz7JqhZNOthGZ9cFgC9iW"
 	},
 	"crew2": {
 		"uid": "2",
 		"name": "Johnathan Smart",
-		"base city": "Chicago",
+		"baseCity": "Chicago",
 		"position": "Flight Attendant",
-		"hire date": "08/28/2015",
+		"hireDate": "08/28/2015",
 		"img": "https://drive.google.com/open?id=1woz8RZ3pizD6wZIoWGZ7vIMa5h7t0YFN"
 	},
 	"crew3": {
 		"uid": "3",
 		"name": "Bill Johnson",
-		"base city": "Ohio",
+		"baseCity": "Ohio",
 		"position": "Pilot",
-		"hire date": "07/21/2015",
+		"hireDate": "07/21/2015",
 		"img": "https://drive.google.com/open?id=1Jb-UG6VX_62dFEuSIAj7Mr6csFMfhiCJ"
 	},
 	"crew4": {
 		"uid": "Stephen",
 		"name": "Will Rough",
-		"base city": "Nashville",
+		"baseCity": "Nashville",
 		"position": "Mechanic",
-		"hire date": "03/16/2016",
+		"hireDate": "03/16/2016",
 		"img": "https://drive.google.com/open?id=1qlevmQHN39_ZtILycd2YCgzzc-0TYv02"
 	},
 	"crew5": {
 		"uid": "Stephen",
 		"name": "Ron Freeman",
-		"base city": "Nashville",
+		"baseCity": "Nashville",
 		"position": "Co-Pilot",
-		"hire date": "09/21/2013",
+		"hireDate": "09/21/2013",
 		"img": "https://drive.google.com/open?id=17IhRk1k0DOKVgTo3p-XOe_KE9knjiUlw"
 	},
 	"crew6": {
 		"uid": "Stephen",
 		"name": "Kent Bravo",
-		"base city": "Houston",
+		"baseCity": "Houston",
 		"position": "Pilot",
-		"hire date": "10/13/2015",
+		"hireDate": "10/13/2015",
 		"img": "https://drive.google.com/open?id=1x68q5OFB8n8hHUZrV6ZT_77mdPuUit9k"
 	},
 	
 	"crew7": {
 		"uid": "Sarah",
 		"name": "Lana Pratt",
-		"base city": "Nashville",
+		"baseCity": "Nashville",
 		"position": "Flight Attendant",
-		"hire date": "02/24/2019",
+		"hireDate": "02/24/2019",
 		"img": "https://drive.google.com/open?id=1ztFor144ZCAVWttL7lmGIN7IXjV4MNUr"
 	},
 	"crew8": {
 		"uid": "Sarah",
 		"name": "Johnathan Smart",
-		"base city": "Chicago",
+		"baseCity": "Chicago",
 		"position": "Flight Attendant",
-		"hire date": "08/28/2015",
+		"hireDate": "08/28/2015",
 		"img": "https://drive.google.com/open?id=1VuwrMOzHKuEnGnvjEGy8hRRz4RL2zXJK"
 	},
 	"crew9": {
 		"uid": "Sarah",
 		"name": "Ben James",
-		"base city": "Ohio",
+		"baseCity": "Ohio",
 		"position": "Pilot",
-		"hire date": "07/21/2015",
+		"hireDate": "07/21/2015",
 		"img": "https://drive.google.com/open?id=1DRFoOpB6fer9q4r4M-Sw7uaveABkzsc2"
 	},
 	"crew10": {
 		"uid": "Zoe",
 		"name": "Bill Wright",
-		"base city": "Memphis",
+		"baseCity": "Memphis",
 		"position": "Mechanic",
-		"hire date": "03/16/2016",
+		"hireDate": "03/16/2016",
 		"img": "https://drive.google.com/open?id=18O0y8Brtu3g4xEb9CTIWAKJ-iQYaamoQ"
 	},
 	"crew11": {
 		"uid": "Zoe",
 		"name": "Randy Ford",
-		"base city":"Orlando",
+		"baseCity":"Orlando",
 		"position": "Co-Pilot",
-		"hire date": "11/22/2013",
+		"hireDate": "11/22/2013",
 		"img": "https://drive.google.com/open?id=1Gd38ab6_Gxw8ffvcNbeFPYBW8D0QmDeY"
 	},
 	"crew12": {
 		"uid": "Zoe",
 		"name": "Kendall Best",
-		"base city": "Louisville",
+		"baseCity": "Louisville",
 		"position": "Pilot",
-		"hire date": "10/12/2015",
+		"hireDate": "10/12/2015",
 		"img": "https://drive.google.com/open?id=1NkkayewVGp2auqSHpHzmsZGei-2VZWWt"
 	}
 }
