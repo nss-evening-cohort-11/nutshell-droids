@@ -1,27 +1,34 @@
+import firebase from 'firebase/app';
+import 'firebase/auth';
+
 import utils from '../../helpers/utils';
+
+const logoutEvent = (e) => {
+  e.preventDefault();
+  firebase.auth().signOut();
+};
+
+const signMeIn = () => {
+  const provider = new firebase.auth.GoogleAuthProvider();
+  firebase.auth().signInWithPopup(provider);
+};
 
 const printNavbar = () => {
   let domString = '';
-  domString += '<nav class="navbar navbar-expand-lg navbar-light bg-light">';
-  domString += '<a class="navbar-brand" href="#">';
-  domString += '<img src="src/img/1031px-Pan_Am_Logo.svg.png" width="40" height="40" class="d-inline-block align-top" alt=""></img>';
-  domString += '</a>';
-  domString += '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">';
-  domString += '<span class="navbar-toggler-icon"></span>';
-  domString += '</button>';
-  domString += '<div class="collapse navbar-collapse" id="navbarNav">';
+  domString += '<nav class="navbar navbar-expand navbar-light bg-light">';
+  domString += '<img src="src/img/1031px-Pan_Am_Logo.svg.png" width="40" height="40" class="d-inline-block align-top" alt="panAm Logo">';
   domString += '<ul class="navbar-nav ml-auto">';
   domString += '<li class="nav-item active">';
-  domString += '<a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>';
+  domString += '<a class="nav-link" href="#">Dashboard<span class="sr-only">(current)</span></a>';
   domString += '</li>';
-  domString += '<button class="btn btn-danger">Log In';
-  domString += '</button>';
+  domString += '<button id="navbar-logout-button" class="btn btn-danger">Log Out</button>';
+  domString += '<button id="google-auth" class="btn btn-danger navbar-login-button">Login</button>';
   domString += '</ul>';
-  domString += '</div>';
   domString += '</nav>';
 
   utils.printToDom('printNavbar', domString);
+  $('body').on('click', '#navbar-logout-button', logoutEvent);
+  $('body').on('click', '#google-auth', signMeIn);
 };
-
 
 export default { printNavbar };
