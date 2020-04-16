@@ -3,12 +3,14 @@ import 'firebase/auth';
 
 import utils from '../../helpers/utils';
 
-const logoutEvent = () => {
-  $('#navbar-logout-button').click((e) => {
-    e.preventDefault();
-    firebase.auth().signOut();
-    $('#google-auth').remove('hide');
-  });
+const logoutEvent = (e) => {
+  e.preventDefault();
+  firebase.auth().signOut();
+};
+
+const signMeIn = () => {
+  const provider = new firebase.auth.GoogleAuthProvider();
+  firebase.auth().signInWithPopup(provider);
 };
 
 const printNavbar = () => {
@@ -26,6 +28,7 @@ const printNavbar = () => {
 
   utils.printToDom('printNavbar', domString);
   $('body').on('click', '#navbar-logout-button', logoutEvent);
+  $('body').on('click', '#google-auth', signMeIn);
 };
 
 export default { printNavbar };
