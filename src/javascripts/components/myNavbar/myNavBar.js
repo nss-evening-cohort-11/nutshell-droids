@@ -4,10 +4,10 @@ import 'firebase/auth';
 import utils from '../../helpers/utils';
 
 const logoutEvent = () => {
-  $('.navbar-logout-button').click((e) => {
+  $('#navbar-logout-button').click((e) => {
     e.preventDefault();
     firebase.auth().signOut();
-    $('.navbar-login-button').removeClass('hide');
+    $('#google-auth').remove('hide');
   });
 };
 
@@ -19,13 +19,13 @@ const printNavbar = () => {
   domString += '<li class="nav-item active">';
   domString += '<a class="nav-link" href="#">Dashboard<span class="sr-only">(current)</span></a>';
   domString += '</li>';
-  domString += '<button class="btn btn-danger navbar-logout-button">Log Out</button>';
+  domString += '<button id="navbar-logout-button" class="btn btn-danger">Log Out</button>';
   domString += '<button id="google-auth" class="btn btn-danger navbar-login-button">Login</button>';
   domString += '</ul>';
   domString += '</nav>';
 
   utils.printToDom('printNavbar', domString);
-  $('body').on('click', '.navbar-logout-button', logoutEvent);
+  $('body').on('click', '#navbar-logout-button', logoutEvent);
 };
 
 export default { printNavbar };
