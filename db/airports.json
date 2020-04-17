@@ -14,7 +14,7 @@
 		"airportName": "Dubai International",
 		"imgUrl": "https://gapyearsite.wpengine.com/wp-content/uploads/2017/11/articles/DubaiNight1.jpg",
 		"city": "Dubai",
-		"state": "N/A",
+		"state": "",
 		"country": "UAE",
 		"airportCode": "DXB",
     "isInternational": true
@@ -32,7 +32,7 @@
 	"airport4": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
 		"airportName": "Honolulu International Airport",
-		"imgUrl": "https://www.nationalgeographic.com/content/dam/travel/2018-digital/city-guides-2018/honolulu-hawaii/waikki-beach-honolulu-hawaii.jpg",
+		"imgUrl": "https://assets3.thrillist.com/v1/image/2766704/size/gn-gift_guide_variable_c_2x.jpg",
 		"city": "Honolulu",
 		"state": "Hawaii",
 		"country": "US",
@@ -44,7 +44,7 @@
 		"airportName": "Edinburgh Airport",
 		"imgUrl": "https://cdn-image.departures.com/sites/default/files/1549985842/west-bow-street-architecture-edinburgh-scotland-EDINBURGH0219.jpg",
 		"city": "Edinburgh",
-		"state": "N/A",
+		"state": "",
 		"country": "SCT",
 		"airportCode": "EDI",
 		"isInternational": true
@@ -52,7 +52,7 @@
 	"airport6": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2 ",
     "airportName": "Nashville International Airport",
-    "imgUrl": "https://render.fineartamerica.com/images/rendered/default/greeting-card/images/artworkimages/medium/1/nashville-skyline-at-dusk-2018-panorama-color-jon-holiday.jpg?&targetx=-400&targety=0&imagewidth=1500&imageheight=500&modelwidth=700&modelheight=500&backgroundcolor=AD7296&orientation=0",
+    "imgUrl": "https://render.fineartamerica.com/images/rendered/default/print/16/10.5/break/images-medium-5/nashville-skyline-dan-holland.jpg",
 		"city": "Nashville",
 		"state": "TN",
 		"country": "US",
@@ -64,7 +64,7 @@
 		"airportName": "Sydney Airport",
 		"imgUrl": "https://i.pinimg.com/originals/25/04/f6/2504f628bdb2090690c220e14b341717.jpg",
 		"city": "Sydney",
-		"state": "N/A",
+		"state": "",
 		"country": "AU",
 		"airportCode": "SYD",
 		"isInternational": true
@@ -72,7 +72,7 @@
 	"airport8": {
 		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
 		"airportName": "O’Hare International Airport",
-		"imgUrl": "https://images.discerningassets.com/image/upload/q_auto:best/c_limit,h_1000,w_1000/v1564957074/One_Night_in_Chicago_sm_vrx6cr.jpg",
+		"imgUrl": "https://s3.envato.com/files/90ff0c82-75f8-4f8c-bbf2-1dc3adf6171d/inline_image_preview.jpg",
 		"city": "Chicago",
 		"state": "IL",
 		"country": "US",
@@ -84,7 +84,7 @@
 		"airportName": "Leonardo da Vinci International Airport Rome",
 		"imgUrl": "https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateRome_Hero_shutterstock789412159.jpg",
 		"city": "Rome",
-		"state": "N/A",
+		"state": "",
 		"country": "ITL",
 		"airportCode": "FCO",
 		"isInternational": true
@@ -94,7 +94,7 @@
 		"airportName": "Cancun International Airport",
 		"imgUrl": "https://nationalpostcom.files.wordpress.com/2016/03/secrets-pools.jpg",
 		"city": "Cancun",
-		"state": "N/A",
+		"state": "",
 		"country": "MEX",
 		"airportCode": "CUN",
 		"isInternational": true
@@ -102,7 +102,7 @@
 	"airport11": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
 		"airportName": "Kansai International Airport",
-		"imgUrl": "https://www.state.gov/wp-content/uploads/2019/04/Japan-2107x1406.jpg",
+		"imgUrl": "https://kid101.com/wp-content/uploads/2017/03/cherry-blossoms-2019-kids.jpg",
 		"city": "Izumisano",
 		"state": "",
 		"country": "JP",

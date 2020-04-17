@@ -4,7 +4,13 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);//
 }
+.fancy-card .shading {
+  background-color: hsla(0, 2%, 33%, 0.5);
+}
 
+.airport {
+  background: linear-gradient( #4e7cd35d, rgba(78, 125, 211, 0.774)) !important; 
+}
 .fancy-card {
   width: 450px;
   height: 250px;
@@ -14,7 +20,7 @@
   border-radius: 6px;
   overflow: hidden;
   position: relative;
-  margin: 1.5rem;
+  margin: .5rem;
 }
 
 .fancy-card h1 {
@@ -135,19 +141,18 @@
 }
 
 .fancy-card .additional .stats div.title {
-  font-size: 0.75rem;
-  font-weight: bold;
+  font-size: 0.65rem;
   text-transform: uppercase;
+  line-height: 1.5rem;
 }
 
 .fancy-card .additional .stats div.value {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.1rem;
   line-height: 1.5rem;
 }
 
 .fancy-card .additional .stats div.value.infinity {
-  font-size: 2.5rem;
+  font-size: 10rem;
 }
 
 .fancy-card .general {
