@@ -1,6 +1,6 @@
 {
   "food1": {
-      "uid": "Zoe",
+      "uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
       "imageUrl": "https://tinyurl.com/sh-pretzels",
       "name": "Pretzels",
       "type": "snack",
@@ -8,7 +8,7 @@
       "isComplementary": true
   },
   "food2": {
-      "uid": "Kenny",
+      "uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
       "imageUrl": "https://previews.123rf.com/images/tvk888/tvk8881505/tvk888150500109/40240203-assorted-nuts-hazelnuts-walnuts-peanuts-pine-nuts-pistachios-almonds-cashews.jpg",
       "name": "Assorted Nuts",
       "type": "snack",
@@ -16,7 +16,7 @@
       "isComplementary": true
   },
   "food3": {
-      "uid": "Sarah",
+      "uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
       "imageUrl": "https://d1ej0joltskjiv.cloudfront.net/catalog/product/cache/ecd051e9670bd57df35c8f0b122d8aea/l/b/lb1592613_a.png",
       "name": "Biscotti Cookies",
       "type": "snack",
@@ -24,7 +24,7 @@
       "isComplementary": true
   },
    "food4": {
-      "uid": "Zoe",
+      "uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
       "imageUrl": "https://image.cnbcfm.com/api/v1/image/103525542-GettyImages-170138993.jpg?v=1532564146",
       "name": "Corona",
       "type": "alcohol",
@@ -32,7 +32,7 @@
       "isComplementary": true
   },
   "food5": {
-      "uid": "Mary",
+      "uid": "w34PiLDVduQbTdTkxMzvGAphWxE3",
       "imageUrl": "https://m.economictimes.com/thumb/msid-73139704,width-1200,height-900,resizemode-4,imgsize-263845/wine-types-istock.jpg",
       "name": "Wine",
       "type": "alcohol",
@@ -40,7 +40,7 @@
       "isComplementary": false
   },
   "food6": {
-      "uid": "Kenny",
+      "uid": "w34PiLDVduQbTdTkxMzvGAphWxE3",
       "imageUrl": "https://specials-images.forbesimg.com/imageserve/5e5899b2765d4500072d6220/960x0.jpg?fit=scale",
       "name": "Pop",
       "type": "beverage",
@@ -48,7 +48,7 @@
       "isComplementary": false
   },
   "food7": {
-      "uid": "Stephen",
+      "uid": "w34PiLDVduQbTdTkxMzvGAphWxE3",
       "imageUrl": "https://cdn.winsightmedia.com/platform/files/public/cspdn/main/articles/perrier-lorange.png",
       "name": "Bottled Water",
       "type": "beverage",
@@ -56,7 +56,7 @@
       "isComplementary": true
   },
   "food8": {
-      "uid": "Sarah",
+      "uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
       "imageUrl": "https://i.pinimg.com/originals/eb/b2/de/ebb2de2757198bac61927fddff71fcc7.jpg",
       "name": "Whiskey",
       "type": "alcohol",
@@ -64,7 +64,7 @@
       "isComplementary": false
   },
   "food9": {
-      "uid": "Kenny",
+      "uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
       "imageUrl": "https://www.organicfacts.net/wp-content/uploads/orangejuice.jpg",
       "name": "Orange Juice",
       "type": "beverage",
@@ -72,7 +72,7 @@
       "isComplementary": true
   },
    "food10": {
-      "uid": "Zoe",
+      "uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
       "imageUrl": "https://www.williampenninn.com/wp-content/uploads/2013/07/entree.jpg",
       "name": "Seafood",
       "type": "entree",
@@ -80,7 +80,7 @@
       "isComplementary": false
   },
   "food11": {
-      "uid": "Kenny",
+      "uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
       "imageUrl": "https://cf.ltkcdn.net/cooking/images/std/155099-425x282-iStock_000019840304XSmall.jpg",
       "name": "Tacos",
       "type": "entree",
@@ -88,7 +88,7 @@
       "isComplementary": false
   },
   "food12": {
-      "uid": "Sarah",
+      "uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
       "imageUrl": "https://i.pinimg.com/originals/11/67/70/116770a78da1209a733d3b9108f3192d.jpg",
       "name": "Steak",
       "type": "entree",
