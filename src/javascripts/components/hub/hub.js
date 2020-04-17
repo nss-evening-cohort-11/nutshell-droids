@@ -6,7 +6,6 @@ const printAirports = () => {
   airportData.getAllAirports()
     .then((airports) => {
       let domString = '';
-      domString += '<h1>Airports</h1>';
       domString += '<div class="d-flex flex-wrap justify-content-center">';
       airports.forEach((airport) => {
         domString += airportComponent.buildAirport(airport);

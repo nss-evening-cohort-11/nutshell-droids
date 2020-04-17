@@ -1,5 +1,6 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
+import hub from '../../components/hub/hub';
 
 const checkLoginStatus = () => {
   firebase.auth().onAuthStateChanged((user) => {
@@ -7,6 +8,7 @@ const checkLoginStatus = () => {
       // person is logged in
       $('#navbar-logout-button').removeClass('hide');
       $('#google-auth').addClass('hide');
+      hub.printAirports();
     } else {
       // person is NOT logged in
       $('#navbar-logout-button').addClass('hide');
