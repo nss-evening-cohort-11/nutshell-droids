@@ -8,7 +8,7 @@
       "isComplementary": true
   },
   "food2": {
-      "uid": "Kenny",
+      "uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
       "imageUrl": "https://previews.123rf.com/images/tvk888/tvk8881505/tvk888150500109/40240203-assorted-nuts-hazelnuts-walnuts-peanuts-pine-nuts-pistachios-almonds-cashews.jpg",
       "name": "Assorted Nuts",
       "type": "snack",
@@ -64,7 +64,7 @@
       "isComplementary": false
   },
   "food9": {
-      "uid": "Kenny",
+      "uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
       "imageUrl": "https://www.organicfacts.net/wp-content/uploads/orangejuice.jpg",
       "name": "Orange Juice",
       "type": "beverage",
@@ -80,7 +80,7 @@
       "isComplementary": false
   },
   "food11": {
-      "uid": "Kenny",
+      "uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
       "imageUrl": "https://cf.ltkcdn.net/cooking/images/std/155099-425x282-iStock_000019840304XSmall.jpg",
       "name": "Tacos",
       "type": "entree",

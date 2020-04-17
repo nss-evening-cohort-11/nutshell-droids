@@ -48,7 +48,7 @@
 		"seatingCapacity": 868
 	},
 	"plane7": {
-		"uid": "kenny",
+		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
 		"imageUrl": "https://www.ainonline.com/sites/default/files/styles/app_large_full/public/uploads/2016/09/cebu72600hc.jpg?itok=vVU153di",
 		"make": "ATR",
 		"model": "72-600",
@@ -56,7 +56,7 @@
 		"seatingCapacity": 78
 	},
 	"plane8": {
-		"uid": "kenny",
+		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
 		"imageUrl": "https://www.aircraftcompare.com/wp-content/uploads/574.jpg",
 		"make": "Saab",
 		"model": "340",
@@ -64,14 +64,13 @@
 		"seatingCapacity": 34
 	},
 	"plane9": {
-		"uid": "kenny",
+		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
 		"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Douglas_DC-8_NASA_%28cropped%29.jpg",
 		"make": "Douglas",
 		"model": "DC-8-62",
 		"type": "Mid Size Passenger Jet",
 		"seatingCapacity": 189
 	},
-
 	"plane10": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
 		"imageUrl": "https://www.aerospace-technology.com/wp-content/uploads/sites/15/2017/10/1-fokker-100-aircraft.jpg",
@@ -80,7 +79,6 @@
 		"type": "Light Passenger Jet",
 		"seatingCapacity": 80
 	},
-
 	"plane11": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
 		"imageUrl": "https://cargofacts.com/wp-content/uploads/2018/03/A330-900-test-flight-Alex-Cheban-wiki.jpg",
@@ -89,7 +87,6 @@
 		"type": "Jumbo Passenger Jet",
 		"seatingCapacity": 406
 	},
-
 	"plane12": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
 		"imageUrl": "https://cdn.airlines-inform.ru/upload/iblock/9b9/Saab-2000-Skywork.JPG",
