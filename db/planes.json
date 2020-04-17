@@ -1,0 +1,99 @@
+{
+	"plane1": {
+		"uid": "w34PiLDVduQbTdTkxMzvGAphWxE3",
+		"imageUrl": "https://www.mhi.com/sites/g/files/jwhtju111/files/product/product_picture/2018/05/21/787_bi43950_1.png",
+		"make": "Boeing",
+		"model": "787",
+		"type": "Jumbo Passenger Jet",
+		"seatingCapacity": 296
+	},
+	"plane2": {
+		"uid": "w34PiLDVduQbTdTkxMzvGAphWxE3",
+		"imageUrl": "https://www.westjet.com/assets/wj-web/images/en/about-us/our-fleet/fleet-Q400-737x426.jpg",
+		"make": "Bombardier",
+		"model": "Q400",
+		"type": "Passenger Turbo Prop",
+		"seatingCapacity": 81
+	},
+	"plane3": {
+		"uid": "w34PiLDVduQbTdTkxMzvGAphWxE3",
+		"imageUrl": "https://cdn.airlines-inform.ru/upload/iblock/6d8/Embraer-175.jpg",
+		"make": "Embraer",
+		"model": "175",
+		"type": "Light Passenger Jet",
+		"seatingCapacity": 76
+	},
+	"plane4": {
+		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
+		"imageUrl": "https://i.insider.com/5e3c2ee90ce3d15a1e33ccf8?width=1100&format=jpeg&auto=webp",
+		"make": "Airbus",
+		"model": "350",
+		"type": "Mid-Size Passenger Jet",
+		"seatingCapacity": 440
+	},
+	"plane5": {
+		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
+		"imageUrl": "https://aviationvoice.com/wp-content/uploads/2017/06/Delta-Boeing-747-Engine-Shuts-Down-In-Flight-Over-The-Pacific.jpg",
+		"make": "Boeing",
+		"model": "747",
+		"type": "Jumbo Passenger Jet",
+		"seatingCapacity": 660
+	},
+	"plane6": {
+		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
+		"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg",
+		"make": "Airbus",
+		"model": "A380",
+		"type": "Jumbo Passenger Jet",
+		"seatingCapacity": 868
+	},
+	"plane7": {
+		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
+		"imageUrl": "https://www.ainonline.com/sites/default/files/styles/app_large_full/public/uploads/2016/09/cebu72600hc.jpg?itok=vVU153di",
+		"make": "ATR",
+		"model": "72-600",
+		"type": "Passenger Turbo Prop",
+		"seatingCapacity": 78
+	},
+	"plane8": {
+		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
+		"imageUrl": "https://www.aircraftcompare.com/wp-content/uploads/574.jpg",
+		"make": "Saab",
+		"model": "340",
+		"type": "Passenger Turbo Prop",
+		"seatingCapacity": 34
+	},
+	"plane9": {
+		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
+		"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Douglas_DC-8_NASA_%28cropped%29.jpg",
+		"make": "Douglas",
+		"model": "DC-8-62",
+		"type": "Mid Size Passenger Jet",
+		"seatingCapacity": 189
+	},
+	"plane10": {
+		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
+		"imageUrl": "https://www.aerospace-technology.com/wp-content/uploads/sites/15/2017/10/1-fokker-100-aircraft.jpg",
+		"make": "Fokker",
+		"model": "70",
+		"type": "Light Passenger Jet",
+		"seatingCapacity": 80
+	},
+	"plane11": {
+		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
+		"imageUrl": "https://cargofacts.com/wp-content/uploads/2018/03/A330-900-test-flight-Alex-Cheban-wiki.jpg",
+		"make": "Airbus",
+		"model": "A330-900neo",
+		"type": "Jumbo Passenger Jet",
+		"seatingCapacity": 406
+	},
+	"plane12": {
+		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
+		"imageUrl": "https://cdn.airlines-inform.ru/upload/iblock/9b9/Saab-2000-Skywork.JPG",
+		"make": "Saab",
+		"model": "2000",
+		"type": "Passenger Turbo Prop",
+		"seatingCapacity": 58
+	}
+}
+
