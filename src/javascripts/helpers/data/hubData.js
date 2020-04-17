@@ -3,7 +3,7 @@ import apiKeys from '../apiKeys.json';
 
 const baseUrl = apiKeys.firebaseKeys.databaseURL;
 
-const getAirports = () => new Promise((resolve, reject) => {
+const getAllAirports = () => new Promise((resolve, reject) => {
   axios.get(`${baseUrl}/airports.json`)
     .then((response) => {
       const demAirports = response.data;
@@ -20,5 +20,5 @@ const getAirports = () => new Promise((resolve, reject) => {
 });
 
 export default {
-  getAirports;
-}
+  getAllAirports,
+};
