@@ -7,7 +7,7 @@ const buildAirport = (airport) => {
             <img width="450" src="${airport.imgUrl}" alt="image of ${airport.airportName}">
           </div>
           <div class="more-info shading" >
-            <div class="h1 mb-3 mt-3 ml-3 mr-3" style="font-size:1.2rem">${airport.airportName}</div>
+            <div class="card-title mb-1 mt-3 ml-3 mr-3">${airport.airportName}</div>
             <div class="coords">
               <span class="float-left">Airport Code: ${airport.airportCode}</span>
               <span>${airport.city} ${airport.state}</span>
@@ -29,7 +29,7 @@ const buildAirport = (airport) => {
                 <i class="fas fa-shuttle-van"></i>
                 <div class="value">${airport.numShuttles}</div>                  
               </div>
-              <div>
+              <div
                 <i class="fas fa-hotel"></i>
                 <div class="value">${airport.numHotels}</div>
               </div>
@@ -37,7 +37,7 @@ const buildAirport = (airport) => {
           </div>
         </div>
         <div class="general hubGeneral">
-        <div class="h1 mb-3 mt-3" style="font-size:1.2rem">${airport.airportName}</div>
+        <div class="card-title mb-1 mt-3">${airport.airportName}</div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar.</p>
           <span class="more">Mouse over the card for more info</span>
         </div>

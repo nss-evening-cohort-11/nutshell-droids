@@ -8,12 +8,12 @@ const checkLoginStatus = () => {
       // person is logged in
       $('#navbar-logout-button').removeClass('hide');
       $('#google-auth').addClass('hide');
-      hub.printAirports();
     } else {
       // person is NOT logged in
       $('#navbar-logout-button').addClass('hide');
       $('#google-auth').removeClass('hide');
     }
+    hub.printAirports();
   });
 };
 

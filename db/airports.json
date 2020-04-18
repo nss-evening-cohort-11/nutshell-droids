@@ -1,7 +1,7 @@
 {
 	"airport1": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
-		"airportName": "Kansas City International Airport",
+		"airportName": "Kansas City International",
     "imgUrl": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/kc-skyline-kansas-city-downtown-and-union-station-gregory-ballos.jpg",
 		"city": "Kansas City",
 		"state": "MO",
@@ -30,7 +30,7 @@
 	},
 	"airport3": {
 		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
-		"airportName": "John F. Kennedy Airport",
+		"airportName": "John F. Kennedy",
 		"imgUrl": "https://cdn11.bigcommerce.com/s-45hj43/images/stencil/500x659/products/4559/6793/CW_808_Statue_of_Liberty_with_New_York_Skyline__35635.1557789140.jpg?c=2&imbypass=on",
 		"city": "New York City",
 		"state": "NY",
@@ -44,7 +44,7 @@
 	},
 	"airport4": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
-		"airportName": "Honolulu International Airport",
+		"airportName": "Honolulu International",
 		"imgUrl": "https://assets3.thrillist.com/v1/image/2766704/size/gn-gift_guide_variable_c_2x.jpg",
 		"city": "Honolulu",
 		"state": "Hawaii",
@@ -58,7 +58,7 @@
 	},
 	"airport5": {
 		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
-		"airportName": "Edinburgh Airport",
+		"airportName": "Edinburgh",
 		"imgUrl": "https://cdn-image.departures.com/sites/default/files/1549985842/west-bow-street-architecture-edinburgh-scotland-EDINBURGH0219.jpg",
 		"city": "Edinburgh",
 		"state": "",
@@ -72,7 +72,7 @@
 	},
 	"airport6": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2 ",
-    "airportName": "Nashville International Airport",
+    "airportName": "Nashville International",
     "imgUrl": "https://render.fineartamerica.com/images/rendered/default/print/16/10.5/break/images-medium-5/nashville-skyline-dan-holland.jpg",
 		"city": "Nashville",
 		"state": "TN",
@@ -86,7 +86,7 @@
 	},
 	"airport7": {
 		"uid": "w34PiLDVduQbTdTkxMzvGAphWxE3",
-		"airportName": "Sydney Airport",
+		"airportName": "Sydney",
 		"imgUrl": "https://i.pinimg.com/originals/25/04/f6/2504f628bdb2090690c220e14b341717.jpg",
 		"city": "Sydney",
 		"state": "",
@@ -100,7 +100,7 @@
 	},
 	"airport8": {
 		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
-		"airportName": "O’Hare International Airport",
+		"airportName": "O’Hare International",
 		"imgUrl": "https://s3.envato.com/files/90ff0c82-75f8-4f8c-bbf2-1dc3adf6171d/inline_image_preview.jpg",
 		"city": "Chicago",
 		"state": "IL",
@@ -114,7 +114,7 @@
 	},
 	"airport9": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
-		"airportName": "Leonardo da Vinci International Airport Rome",
+		"airportName": "Leonardo da Vinci International - Rome",
 		"imgUrl": "https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateRome_Hero_shutterstock789412159.jpg",
 		"city": "Rome",
 		"state": "",
@@ -128,7 +128,7 @@
 	},
 	"airport10": {
 		"uid": "w34PiLDVduQbTdTkxMzvGAphWxE3",
-		"airportName": "Cancun International Airport",
+		"airportName": "Cancun International",
 		"imgUrl": "https://nationalpostcom.files.wordpress.com/2016/03/secrets-pools.jpg",
 		"city": "Cancun",
 		"state": "",
@@ -142,7 +142,7 @@
 	},
 	"airport11": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
-		"airportName": "Kansai International Airport",
+		"airportName": "Kansai International",
 		"imgUrl": "https://kid101.com/wp-content/uploads/2017/03/cherry-blossoms-2019-kids.jpg",
 		"city": "Izumisano",
 		"state": "",
@@ -156,7 +156,7 @@
 	},
 	"airport12": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
-		"airportName": "Phoenix Sky Harbor International Airport",
+		"airportName": "Phoenix Sky Harbor International",
 		"imgUrl": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/de/62/d8.jpg",
 		"city": "Phoenix",
 		"state": "AZ",
