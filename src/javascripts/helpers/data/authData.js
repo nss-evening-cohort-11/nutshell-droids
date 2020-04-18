@@ -1,5 +1,6 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
+import lounge from '../../components/theLounge/theLounge';
 
 const checkLoginStatus = () => {
   firebase.auth().onAuthStateChanged((user) => {
@@ -14,6 +15,7 @@ const checkLoginStatus = () => {
       $('#google-auth').removeClass('hide');
       $('#the-lounge').addClass('hide');
     }
+    lounge.printCrew();
   });
 };
 

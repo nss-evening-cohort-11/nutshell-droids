@@ -1,4 +1,3 @@
-import './crew.scss';
 
 const buildCrew = (crew) => {
   let domString = '';
