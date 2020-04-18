@@ -2,6 +2,16 @@ import airportComponent from './airportComponent';
 import airportData from '../../helpers/data/hubData';
 import utils from '../../helpers/utils';
 
+const removeAirport = (e) => {
+  const selectedAirportId = e.target.closest('.fancy-card').id;
+  airportData.deleteAirport(selectedAirportId)
+    .then(() => {
+      // eslint-disable-next-line no-use-before-define
+      printAirports();
+    })
+    .catch((err) => console.error('cannot remove airport', err));
+};
+
 const printAirports = () => {
   airportData.getAllAirports()
     .then((airports) => {
@@ -15,4 +25,9 @@ const printAirports = () => {
     .catch((err) => console.error('cannot print airports', err));
 };
 
-export default { printAirports };
+const clickEvent = () => {
+  $('body').on('click', '.delete-airport', removeAirport);
+};
+
+
+export default { printAirports, clickEvent };
