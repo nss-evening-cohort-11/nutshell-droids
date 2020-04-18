@@ -32,7 +32,7 @@ const printDashboard = () => {
   domString += '<p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>';
   domString += '</div>';
   domString += '</div>';
-  utils.printToDom('the-lounge', domString);
+  utils.printToDom('the-breakroom', domString);
 };
 
 const dashBoardEvents = () => {
