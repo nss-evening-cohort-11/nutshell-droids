@@ -13,13 +13,13 @@ const checkLoginStatus = () => {
       $('#navbar-logout-button').removeClass('hide');
       $('#google-auth').addClass('hide');
       hangarDiv.removeClass('hide');
-      hangar.printPlanes();
     } else {
       // person is NOT logged in
       $('#navbar-logout-button').addClass('hide');
       $('#google-auth').removeClass('hide');
       hangarDiv.addClass('hide');
     }
+    hangar.printPlanes();
   });
 };
 
