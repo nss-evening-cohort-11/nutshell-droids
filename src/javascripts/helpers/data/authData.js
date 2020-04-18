@@ -1,5 +1,6 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
+import hub from '../../components/hub/hub';
 
 const checkLoginStatus = () => {
   firebase.auth().onAuthStateChanged((user) => {
@@ -12,6 +13,7 @@ const checkLoginStatus = () => {
       $('#navbar-logout-button').addClass('hide');
       $('#google-auth').removeClass('hide');
     }
+    hub.printAirports();
   });
 };
 
