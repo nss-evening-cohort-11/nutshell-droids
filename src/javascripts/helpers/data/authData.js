@@ -1,5 +1,6 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
+import dashboard from '../../components/dashboard/dashboard';
 
 const theLoungeDiv = $('#the-lounge');
 
@@ -15,8 +16,8 @@ const checkLoginStatus = () => {
       $('#navbar-logout-button').addClass('hide');
       $('#google-auth').removeClass('hide');
       theLoungeDiv.addClass('hide');
-
     }
+    dashboard.dashBoardEvents();
   });
 };
 
