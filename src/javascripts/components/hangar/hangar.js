@@ -11,7 +11,6 @@ const printPlanes = () => {
       planes.forEach((plane) => {
         domString += planeComponent.buildPlanes(plane);
       });
-      // domString += '</div>';
       utils.printToDom('the-hangar', domString);
     })
     .catch((err) => console.error('get planes broke', err));
