@@ -2,6 +2,8 @@ import firebase from 'firebase/app';
 import 'firebase/auth';
 import hub from '../../components/hub/hub';
 
+import hangar from '../../components/hangar/hangar';
+
 const checkLoginStatus = () => {
   firebase.auth().onAuthStateChanged((user) => {
     if (user) {
@@ -14,6 +16,7 @@ const checkLoginStatus = () => {
       $('#google-auth').removeClass('hide');
     }
     hub.clickEvent();
+    hangar.printPlanes();
     hub.printAirports();
   });
 };
