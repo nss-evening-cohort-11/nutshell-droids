@@ -1,5 +1,6 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
+import lounge from '../../components/theLounge/theLounge';
 import hub from '../../components/hub/hub';
 
 import hangar from '../../components/hangar/hangar';
@@ -15,6 +16,7 @@ const checkLoginStatus = () => {
       $('#navbar-logout-button').addClass('hide');
       $('#google-auth').removeClass('hide');
     }
+    lounge.printCrew();
     hub.clickEvent();
     hangar.printPlanes();
     hub.printAirports();
