@@ -23,7 +23,7 @@
   margin: .5rem;
 }
 
-.fancy-card h1 {
+.fancy-card .h1 {
   text-align: center;
 }
 
@@ -93,12 +93,12 @@
   height: 100%;
 }
 
-.fancy-card .additional .more-info h1 {
+.fancy-card .additional .more-info .h1 {
   color: #fff;
   margin-bottom: 0;
 }
 
-.fancy-card.green .additional .more-info h1 {
+.fancy-card.green .additional .more-info .h1 {
   color: #224C36;
 }
 
