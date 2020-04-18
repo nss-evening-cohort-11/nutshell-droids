@@ -3,6 +3,8 @@ import 'firebase/auth';
 import lounge from '../../components/theLounge/theLounge';
 import hub from '../../components/hub/hub';
 
+import hangar from '../../components/hangar/hangar';
+
 const checkLoginStatus = () => {
   firebase.auth().onAuthStateChanged((user) => {
     if (user) {
@@ -14,7 +16,12 @@ const checkLoginStatus = () => {
       $('#navbar-logout-button').addClass('hide');
       $('#google-auth').removeClass('hide');
     }
+<<<<<<< HEAD
     lounge.printCrew();
+=======
+    hub.clickEvent();
+    hangar.printPlanes();
+>>>>>>> origin
     hub.printAirports();
   });
 };

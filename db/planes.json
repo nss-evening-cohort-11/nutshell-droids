@@ -5,7 +5,9 @@
 		"make": "Boeing",
 		"model": "787",
 		"type": "Jumbo Passenger Jet",
-		"seatingCapacity": 296
+		"seatingCapacity": 296,
+		"price": "275 M",
+		"speed": "945 Km/h"
 	},
 	"plane2": {
 		"uid": "w34PiLDVduQbTdTkxMzvGAphWxE3",
@@ -13,7 +15,9 @@
 		"make": "Bombardier",
 		"model": "Q400",
 		"type": "Passenger Turbo Prop",
-		"seatingCapacity": 81
+		"seatingCapacity": 81,
+		"price": "32.2 M",
+		"speed": "667 Km/h"
 	},
 	"plane3": {
 		"uid": "w34PiLDVduQbTdTkxMzvGAphWxE3",
@@ -21,15 +25,19 @@
 		"make": "Embraer",
 		"model": "175",
 		"type": "Light Passenger Jet",
-		"seatingCapacity": 76
+		"seatingCapacity": 76,
+		"price": "45.7 M",
+		"speed": "889 Km/h"
 	},
 	"plane4": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
 		"imageUrl": "https://i.insider.com/5e3c2ee90ce3d15a1e33ccf8?width=1100&format=jpeg&auto=webp",
 		"make": "Airbus",
-		"model": "350",
+		"model": "A350",
 		"type": "Mid-Size Passenger Jet",
-		"seatingCapacity": 440
+		"seatingCapacity": 440,
+		"price": "366.5 M",
+		"speed": "945 Km/h"
 	},
 	"plane5": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
@@ -37,7 +45,9 @@
 		"make": "Boeing",
 		"model": "747",
 		"type": "Jumbo Passenger Jet",
-		"seatingCapacity": 660
+		"seatingCapacity": 660,
+		"price": "146.7 M",
+		"speed": "939 Km/h"
 	},
 	"plane6": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
@@ -45,7 +55,10 @@
 		"make": "Airbus",
 		"model": "A380",
 		"type": "Jumbo Passenger Jet",
-		"seatingCapacity": 868
+		"seatingCapacity": 868,
+		"price": "350 M",
+		"speed": "1,087 Km/h"
+
 	},
 	"plane7": {
 		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
@@ -53,7 +66,9 @@
 		"make": "ATR",
 		"model": "72-600",
 		"type": "Passenger Turbo Prop",
-		"seatingCapacity": 78
+		"seatingCapacity": 78,
+		"price": "26 M",
+		"speed": "509 Km/h"
 	},
 	"plane8": {
 		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
@@ -61,7 +76,9 @@
 		"make": "Saab",
 		"model": "340",
 		"type": "Passenger Turbo Prop",
-		"seatingCapacity": 34
+		"seatingCapacity": 34,
+		"price": "10 M",
+		"speed": "522 Km/h"
 	},
 	"plane9": {
 		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
@@ -69,7 +86,9 @@
 		"make": "Douglas",
 		"model": "DC-8-62",
 		"type": "Mid Size Passenger Jet",
-		"seatingCapacity": 189
+		"seatingCapacity": 189,
+		"price": "35 M",
+		"speed": "895 Km/h"
 	},
 	"plane10": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
@@ -77,7 +96,10 @@
 		"make": "Fokker",
 		"model": "70",
 		"type": "Light Passenger Jet",
-		"seatingCapacity": 80
+		"seatingCapacity": 80,
+		"price": "20 M",
+		"speed": "743 Km/h"
+
 	},
 	"plane11": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
@@ -85,7 +107,9 @@
 		"make": "Airbus",
 		"model": "A330-900neo",
 		"type": "Jumbo Passenger Jet",
-		"seatingCapacity": 406
+		"seatingCapacity": 406,
+		"price": "296.4 M",
+		"speed": "919 Km/h"
 	},
 	"plane12": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
@@ -93,7 +117,9 @@
 		"make": "Saab",
 		"model": "2000",
 		"type": "Passenger Turbo Prop",
-		"seatingCapacity": 58
+		"seatingCapacity": 58,
+		"price": "15 M",
+		"speed": "682 Km/h"
 	}
 }
 
