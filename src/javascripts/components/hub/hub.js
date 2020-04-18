@@ -29,5 +29,4 @@ const clickEvent = () => {
   $('body').on('click', '.delete-airport', removeAirport);
 };
 
-
 export default { printAirports, clickEvent };
