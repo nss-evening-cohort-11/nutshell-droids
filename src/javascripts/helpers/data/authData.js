@@ -1,7 +1,7 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
 
-const theLoungeDiv = $(#the-lounge);
+const theLoungeDiv = $('#the-lounge');
 
 const checkLoginStatus = () => {
   firebase.auth().onAuthStateChanged((user) => {
@@ -9,10 +9,13 @@ const checkLoginStatus = () => {
       // person is logged in
       $('#navbar-logout-button').removeClass('hide');
       $('#google-auth').addClass('hide');
+      theLoungeDiv.removeClass('hide');
     } else {
       // person is NOT logged in
       $('#navbar-logout-button').addClass('hide');
       $('#google-auth').removeClass('hide');
+      theLoungeDiv.addClass('hide');
+
     }
   });
 };
