@@ -1,6 +1,8 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
 
+const theLoungeDiv = $(#the-lounge);
+
 const checkLoginStatus = () => {
   firebase.auth().onAuthStateChanged((user) => {
     if (user) {
