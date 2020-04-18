@@ -1,5 +1,6 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
+import hub from '../../components/hub/hub';
 
 import hangar from '../../components/hangar/hangar';
 
@@ -20,6 +21,7 @@ const checkLoginStatus = () => {
       hangarDiv.addClass('hide');
     }
     hangar.printPlanes();
+    hub.printAirports();
   });
 };
 
