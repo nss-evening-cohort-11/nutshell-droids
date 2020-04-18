@@ -15,6 +15,7 @@ const checkLoginStatus = () => {
       $('#navbar-logout-button').addClass('hide');
       $('#google-auth').removeClass('hide');
     }
+    hub.clickEvent();
     hangar.printPlanes();
     hub.printAirports();
   });
