@@ -8,6 +8,9 @@
   background-color: hsla(0, 2%, 33%, 0.5);
 }
 
+.planes {
+  background: linear-gradient( rgba(160, 76, 20, 0.4), rgba(160, 76, 20, 0.4)) !important; 
+}
 .airport {
   background: linear-gradient( rgba(42, 92, 158, 0.4), rgba(42, 92, 158, .8)) !important; 
 }
@@ -24,6 +27,7 @@
 }
 
 .fancy-card .card-title {
+
   text-align: center;
   font-size: 1.5rem;
 }
@@ -95,11 +99,13 @@
 }
 
 .fancy-card .additional .more-info .card-title {
+
   color: #fff;
   margin-bottom: 0;
 }
 
 .fancy-card.green .additional .more-info .card-title {
+
   color: #224C36;
 }
 
