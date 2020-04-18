@@ -1,4 +1,3 @@
-
 import axios from 'axios';
 import apiKeys from '../apiKeys.json';
 
@@ -19,6 +18,5 @@ const getAllCrews = () => new Promise((resolve, reject) => {
     })
     .catch((err) => reject(err));
 });
-
 
 export default { getAllCrews };
