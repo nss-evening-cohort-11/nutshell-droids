@@ -10,6 +10,7 @@ const printCrew = () => {
       crews.forEach((crew) => {
         domString += crewComponent.buildCrew(crew);
       });
+      utils.printToDom('the-breakroom', '');
       utils.printToDom('the-lounge', domString);
     })
     .catch((err) => console.error('The crew is not here', err));

@@ -1,5 +1,7 @@
-// import airportComponent from '../hub/airportComponent';
 import hangarComponent from '../hangar/hangar';
+import hubComponent from '../hub/hub';
+import loungeComponent from '../theLounge/theLounge';
+
 import utils from '../../helpers/utils';
 
 const printDashboard = () => {
@@ -40,15 +42,9 @@ const printDashboard = () => {
   utils.printToDom('the-breakroom', domString);
 };
 
-// $('body').on('click', '#dash-card-airports', callCard);
-
-// const callCard = () => {
-//   console.error("button clicked");
-// };
-
 const dashBoardEvents = () => {
-  // $('body').on('click', '#dash-card-foods', foodComponent.printFood);
-  // $(body).on(click, '#dash-card-crews', crewComponent.printCrew);
+  $('body').on('click', '#dash-card-crews', loungeComponent.printCrew);
+  $('body').on('click', '#dash-card-airports', hubComponent.printAirports);
   $('body').on('click', '#dash-card-planes', hangarComponent.printPlanes);
 };
 
