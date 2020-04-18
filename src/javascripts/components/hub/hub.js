@@ -20,6 +20,7 @@ const printAirports = () => {
       airports.forEach((airport) => {
         domString += airportComponent.buildAirport(airport);
       });
+      utils.printToDom('the-breakroom', '');
       utils.printToDom('hub', domString);
     })
     .catch((err) => console.error('cannot print airports', err));
