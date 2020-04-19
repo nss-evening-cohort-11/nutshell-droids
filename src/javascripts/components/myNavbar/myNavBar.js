@@ -16,7 +16,8 @@ const signMeIn = () => {
 const printNavbar = () => {
   let domString = '';
   domString += '<nav class="navbar navbar-expand navbar-light bg-light">';
-  domString += '<img src="src/img/1031px-Pan_Am_Logo.svg.png" width="40" height="40" class="d-inline-block align-top" alt="panAm Logo">';
+  // eslint-disable-next-line max-len
+  domString += '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Pan_Am_Logo.svg/1031px-Pan_Am_Logo.svg.png" width="40" height="40" class="d-inline-block align-top" alt="panAm Logo">';
   domString += '<ul class="navbar-nav ml-auto">';
   domString += '<li class="nav-item active">';
   domString += '<a class="nav-link" href="#">Dashboard<span class="sr-only">(current)</span></a>';
