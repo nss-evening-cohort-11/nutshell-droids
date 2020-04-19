@@ -5,17 +5,17 @@ import planeComponent from '../plane/plane';
 const createPlane = (e) => {
   e.preventDefault();
   const newPlane = {
-    imgageUrl: $('#plane-image').val(),
+    imageUrl: $('#plane-image').val(),
     model: $('#model').val(),
     make: $('#make').val(),
     type: $('#plane-type').val(),
     seatingCapacity: $('#capacity').val(),
     price: $('#price').val(),
     speed: $('#speed').val(),
+    description: $('#description').val(),
   };
   planesData.addPlanes(newPlane)
     .then(() => {
-      console.log(newPlane);
       // eslint-disable-next-line no-use-before-define
       printPlanes();
     })
@@ -64,7 +64,11 @@ const printPlanes = () => {
       domString += '</div>';
       domString += '<div class="col-md-8 mb-3">';
       domString += '<label for="image">Plane Image Url:</label>';
-      domString += '<input type="text" class="form-control" id="plane-image">';
+      domString += '<input type="text" class="form-control" id="plane-image"></input>';
+      domString += '</div>';
+      domString += '<div class="col-md-12 mb-3">';
+      domString += '<label for="description">Description:</label>';
+      domString += '<input type="text" class="form-control" id="description">';
       domString += '</div>';
       domString += '</div>';
       domString += '<div class="row justify-content-center">';
