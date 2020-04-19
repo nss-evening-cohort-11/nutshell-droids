@@ -3,6 +3,8 @@ import 'firebase/auth';
 import dashboard from '../../components/dashboard/dashboard';
 import hub from '../../components/hub/hub';
 import hangar from '../../components/hangar/hangar';
+import myNavBar from '../../components/myNavbar/myNavBar';
+
 
 const checkLoginStatus = () => {
   firebase.auth().onAuthStateChanged((user) => {
@@ -15,6 +17,7 @@ const checkLoginStatus = () => {
       $('#navbar-logout-button').addClass('hide');
       $('#google-auth').removeClass('hide');
     }
+    myNavBar.clickEvent();
     dashboard.dashBoardEvents();
     dashboard.printDashboard();
     hub.clickEvent();
