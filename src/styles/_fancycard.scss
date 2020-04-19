@@ -5,6 +5,7 @@
 .iconblue{
   color: #2b67ac;
 }
+
 .btnblue {
   background-color: #2b67ac;
 }
@@ -15,6 +16,7 @@
   left: 50%;
   transform: translate(-50%, -50%);//
 }
+
 .delete-btn{
   color: #ffffff00;
 }
@@ -29,6 +31,22 @@
 .delete-btn:hover{
  color:red !important;
 }
+
+.edit-btn:hover{
+  color: yellow !important;
+ }
+ 
+ .edit-btn{
+   color: #ffffff00;
+ }
+
+ .fancy-card:hover .edit-btn {
+   color: white;
+   z-index: 1;
+   position: absolute;
+   left: 10px;
+   bottom: 10px;
+ }
 
 .iconblue{
   color: #2b67ac;
