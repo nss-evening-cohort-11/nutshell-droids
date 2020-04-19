@@ -17,6 +17,7 @@ const printNavbar = () => {
   let domString = '';
   domString += '<nav class="navbar navbar-expand navbar-light bg-light">';
   domString += '<img src="src/img/1031px-Pan_Am_Logo.svg.png" width="40" height="40" class="d-inline-block align-top" alt="panAm Logo">';
+  domString += '<h1 id="dashboard-nav-link" class="center"></h1>';
   domString += '<ul class="navbar-nav ml-auto">';
   domString += '<li class="nav-item active">';
   domString += '<a id="dashboard-nav-link" class="nav-link" href="#">Dashboard<span class="sr-only">(current)</span></a>';

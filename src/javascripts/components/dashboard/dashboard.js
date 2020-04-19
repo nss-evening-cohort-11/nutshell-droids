@@ -40,6 +40,7 @@ const printDashboard = () => {
   domString += '</div>';
   domString += '</div>';
   domString += '</div>';
+  utils.printToDom('dashboard-nav-link', '');
   utils.printToDom('hub', '');
   utils.printToDom('the-hangar', '');
   utils.printToDom('the-lounge', '');
