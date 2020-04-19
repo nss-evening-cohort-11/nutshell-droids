@@ -15,7 +15,9 @@
   left: 50%;
   transform: translate(-50%, -50%);//
 }
-
+.delete-btn{
+  color: #ffffff00;
+}
 .fancy-card:hover .delete-btn {
   color: white;
   z-index: 1;
@@ -28,6 +30,14 @@
  color:red !important;
 }
 
+.iconblue{
+  color: #2b67ac;
+}
+
+.btnblue {
+  background-color: #2b67ac;
+}
+
 .fancy-card .shading {
   background-color: hsla(0, 2%, 33%, 0.5);
 }
@@ -35,16 +45,18 @@
 .crew {
   background: linear-gradient(rgba(164, 194, 249, 1), rgba(164, 194, 249, 0.4)) !important; 
 }
+
 .plane {
   background: linear-gradient(rgba(204, 85, 0, 1), rgba(204, 85, 0, 0.4)) !important; 
 }
+
 .airport {
   background: linear-gradient( rgba(42, 92, 158, 0.4), rgba(42, 92, 158, .8)) !important; 
 }
-
 .fancy-card {
   width: 450px;
   height: 250px;
+  min-width: 450px;
   background-color: #fff;
   background: linear-gradient(#f8f8f8, #fff);
   box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
@@ -64,7 +76,7 @@
   position: absolute;
   width: 150px;
   height: 100%;
-  background: linear-gradient(#dE685E, #EE786E);
+  background: linear-gradient( rgba(42, 92, 158, 0.4), rgba(42, 92, 158, .8));
   transition: width 0.4s;
   overflow: hidden;
   z-index: 2;
