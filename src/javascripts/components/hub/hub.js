@@ -81,7 +81,7 @@ const printAirports = () => {
       domString += `
       <div class="accordion" id="accordionExample">
       <h2>
-        <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button id="auth-add-airport" class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         <i class="iconblue fas fa-2x fa-plus-circle"></i></button>
       </h2>
       </div>
