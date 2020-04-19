@@ -1,5 +1,7 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
+import dashboard from '../dashboard/dashboard';
+
 
 import utils from '../../helpers/utils';
 
@@ -21,16 +23,19 @@ const printNavbar = () => {
   domString += '<h1 id="dashboard-nav-link" class="center"></h1>';
   domString += '<ul class="navbar-nav ml-auto">';
   domString += '<li class="nav-item active">';
-  domString += '<a class="nav-link" href="#">Dashboard<span class="sr-only">(current)</span></a>';
+  domString += '<a id="dashboard-nav-link" class="nav-link" href="#">Dashboard<span class="sr-only">(current)</span></a>';
   domString += '</li>';
   domString += '<button id="navbar-logout-button" class="btn btn-danger">Log Out</button>';
   domString += '<button id="google-auth" class="btn btn-danger navbar-login-button">Login</button>';
   domString += '</ul>';
   domString += '</nav>';
-
   utils.printToDom('printNavbar', domString);
+};
+
+const clickEvent = () => {
+  $('body').on('click', '#dashboard-nav-link', dashboard.printDashboard);
   $('body').on('click', '#navbar-logout-button', logoutEvent);
   $('body').on('click', '#google-auth', signMeIn);
 };
 
-export default { printNavbar };
+export default { printNavbar, clickEvent };
