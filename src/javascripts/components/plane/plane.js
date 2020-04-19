@@ -1,9 +1,10 @@
 const buildPlanes = (plane) => {
   let domString = '';
-  domString += '<div class="fancy-card plane">';
+  domString += `<div id=${plane.id} class="fancy-card plane">`;
   domString += '<div class="additional">';
   domString += '<div class="user-card">';
-  domString += `<img width="450" src="${plane.imageUrl}" alt="image of ${plane.make} ">`;
+  domString += `<img width="450" height="250px"src="${plane.imageUrl}" alt="image of ${plane.make} ">`;
+  domString += '<i class="delete-planes delete-btn far fa-2x fa-times-circle"></i>';
   domString += '</div>';
   domString += '<div class="more-info shading">';
   domString += `<div class="card-title mb-3 mt-3 ml-3 mr-3">${plane.make}</div>`;

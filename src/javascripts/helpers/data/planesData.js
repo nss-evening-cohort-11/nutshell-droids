@@ -18,4 +18,7 @@ const getPlanes = () => new Promise((resolve, reject) => {
     })
     .catch((err) => reject(err));
 });
-export default { getPlanes };
+
+const deletePlanes = (planeId) => axios.delete(`${baseUrl}/planes/${planeId}.json`);
+
+export default { getPlanes, deletePlanes };
