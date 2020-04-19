@@ -1,5 +1,6 @@
 import airportComponent from './airportComponent';
 import airportData from '../../helpers/data/hubData';
+import showModalPrint from './editAirport';
 import utils from '../../helpers/utils';
 
 const removeAirport = (e) => {
@@ -34,6 +35,38 @@ const createAirport = (e) => {
       printAirports();
     })
     .catch((err) => console.error('could not add airport', err));
+};
+
+const editAirport = (e) => {
+  e.preventDefault();
+  const radio = $('#radio').is(':checked');
+  const airportId = e.target.closest('.airport').id;
+  const changeAirport = {
+    airportName: $('#name').val(),
+    imgUrl: $('#image').val(),
+    city: $('#city').val(),
+    state: $('#state').val(),
+    country: $('#country').val(),
+    airportCode: $('#airportCode').val(),
+    numFlights: $('#numFlights').val(),
+    numRestaurants: $('#restaurants').val(),
+    numShuttles: $('#shuttles').val(),
+    numHotels: $('#hotels').val(),
+    isInternational: radio,
+  };
+  console.log('this is the updated', changeAirport);
+  airportData.updateAirport(airportId)
+    .then(() => {
+      // eslint-disable-next-line no-use-before-define
+      printAirports();
+    })
+    .catch((err) => console.error('could not update airport', err));
+};
+
+const showModalEvent = (e) => {
+  e.preventDefault();
+  const selectedAirportId = e.target.closest('.fancy-card').id;
+  showModalPrint.showAirportModal(selectedAirportId);
 };
 
 const printAirports = () => {
@@ -104,9 +137,12 @@ const printAirports = () => {
               </div>
             </div>
           </form>
+          </div>
         </div>
-        </div>
-      `;
+        <div class="modal fade" id="airportModal" tabindex="-1" role="dialog" aria-labelledby="airportModalLabel" aria-hidden="true">
+            <div id="printAirportModal" class="modal-dialog" role="document">
+            </div>
+            </div>`;
       domString += '<div class="d-flex flex-wrap justify-content-center">';
       airports.forEach((airport) => {
         domString += airportComponent.buildAirport(airport);
@@ -120,6 +156,12 @@ const printAirports = () => {
 const clickEvent = () => {
   $('body').on('click', '.delete-airport', removeAirport);
   $('body').on('click', '.add-airport-btn', createAirport);
+  $('body').on('click', '.edit-button', showModalEvent);
 };
 
-export default { printAirports, clickEvent };
+export default {
+  printAirports,
+  clickEvent,
+  editAirport,
+  showModalEvent,
+};

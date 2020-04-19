@@ -15,6 +15,20 @@
   top: 10px;
 }
 
+.edit-btn:hover{
+ color:red !important;
+}
+.edit-btn{
+  color: #ffffff00;
+}
+.fancy-card:hover .edit-btn {
+  color: white;
+  z-index: 1;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
 .delete-btn:hover{
  color:red !important;
 }
