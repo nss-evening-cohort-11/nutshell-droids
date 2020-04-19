@@ -27,6 +27,7 @@ const createAirport = (e) => {
     numShuttles: $('#shuttles').val(),
     numHotels: $('#hotels').val(),
     isInternational: radio,
+    description: $('#edit-desc').val(),
   };
   airportData.addAirport(newAirport)
     .then(() => {
@@ -96,8 +97,8 @@ const printAirports = () => {
             </div>
             <div class="form-row">
               <div class="col-md-12 mb-3">
-                <label for="image">Description: </label>
-                <input type="text" class="form-control" id="image">
+                <label for="edit-desc">Description: </label>
+                <input type="text" class="form-control" id="edit-desc">
               </div>
             </div>
             <div class="form-row">
