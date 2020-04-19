@@ -3,6 +3,7 @@ import 'firebase/auth';
 import dashboard from '../../components/dashboard/dashboard';
 import hub from '../../components/hub/hub';
 import hangar from '../../components/hangar/hangar';
+// import editPlane from '../../components/editPlane/editPlane';
 
 const checkLoginStatus = () => {
   firebase.auth().onAuthStateChanged((user) => {
@@ -19,6 +20,7 @@ const checkLoginStatus = () => {
     dashboard.printDashboard();
     hub.clickEvent();
     hangar.clickEvent();
+    // editPlane.showForm();
   });
 };
 

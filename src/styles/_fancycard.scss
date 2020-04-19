@@ -13,8 +13,23 @@
   top: 10px;
 }
 
+.fa-pencil-alt {
+  font-size: 1.5rem;
+}
 .delete-btn:hover{
- color:red !important;
+ color: red !important;
+}
+
+.fancy-card:hover .edit-btn {
+  color: white;
+  z-index: 1;
+  position: relative;
+  bottom: 32px;
+  left: 15px;
+}
+
+.edit-btn:hover{
+ color: yellow !important;
 }
 
 .fancy-card .shading {

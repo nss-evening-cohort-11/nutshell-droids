@@ -1,15 +1,26 @@
 import planesData from '../../helpers/data/planesData';
 import utils from '../../helpers/utils';
 import planeComponent from '../plane/plane';
+import editPlane from '../editPlane/editPlane';
+// import editPlane from '../editPlane/editPlane';
 
-const removePlane = (e) => {
-  const selectedPlaneId = e.target.closest('.fancy-card').id;
-  planesData.deletePlanes(selectedPlaneId)
-    .then(() => {
-      // eslint-disable-next-line no-use-before-define
-      printPlanes();
+
+const editPlaneEvent = (e) => {
+  e.preventDefault();
+  $('#planeEditModal').modal('show');
+  const planeId = e.target.closest('.user-card').id;
+  editPlane.showForm();
+  planesData.getSinglePlane(planeId)
+    .then((plane) => {
+      $('#edit-plane-image').val(plane.imageUrl);
+      $('#edit-plane-make').val(plane.make);
+      $('#edit-plane-model').val(plane.model);
+      $('#edit-plane-type').val(plane.type);
+      $('#edit-plane-seating-capacity').val(plane.seatingCapacity);
+      $('#edit-plane-price').val(plane.price);
+      $('#edit-plane-speed').val(plane.speed);
     })
-    .catch((err) => console.error('cannot remove airport', err));
+    .catch((err) => console.error('modals suck', err));
 };
 
 const printPlanes = () => {
@@ -27,7 +38,8 @@ const printPlanes = () => {
 };
 
 const clickEvent = () => {
-  $('body').on('click', '.delete-planes', removePlane);
+  $('body').on('click', '.edit-planes', editPlaneEvent);
+  // $('body').on('click', '.edit-plane-btn', updatePlaneEvent);
 };
 
 export default { printPlanes, clickEvent };
