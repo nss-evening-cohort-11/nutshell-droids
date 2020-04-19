@@ -10,6 +10,7 @@ const printCrew = () => {
       crews.forEach((crew) => {
         domString += crewComponent.buildCrew(crew);
       });
+      utils.printToDom('dashboard-nav-link', 'Crew');
       utils.printToDom('the-breakroom', '');
       utils.printToDom('the-lounge', domString);
     })

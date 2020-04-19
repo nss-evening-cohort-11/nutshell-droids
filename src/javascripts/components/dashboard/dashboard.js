@@ -40,6 +40,7 @@ const printDashboard = () => {
   domString += '</div>';
   domString += '</div>';
   utils.printToDom('the-breakroom', domString);
+  utils.printToDom('dashboard-nav-link', '');
 };
 
 const dashBoardEvents = () => {
