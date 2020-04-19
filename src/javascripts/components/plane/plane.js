@@ -35,8 +35,8 @@ const buildPlanes = (plane) => {
   domString += '</div>';
   domString += '<div class="general hubGeneral">';
   domString += `<div class="card-title mb-3 mt-3">${plane.make}</div>`;
-  domString += '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar.</p>';
-  domString += '<span class="more">Mouse over the card for more info</span>';
+  domString += `<div class="description-font"><p>${plane.description}</p></div>`;
+  domString += '<span class="more text-white">Mouse over the card for more info</span>';
   domString += '</div>';
   domString += '</div>';
   return domString;

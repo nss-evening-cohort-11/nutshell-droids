@@ -21,4 +21,6 @@ const getPlanes = () => new Promise((resolve, reject) => {
 
 const deletePlanes = (planeId) => axios.delete(`${baseUrl}/planes/${planeId}.json`);
 
-export default { getPlanes, deletePlanes };
+const addPlanes = (newPlane) => axios.post(`${baseUrl}/planes.json`, newPlane);
+
+export default { getPlanes, deletePlanes, addPlanes };
