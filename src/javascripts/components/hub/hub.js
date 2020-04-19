@@ -20,6 +20,7 @@ const printAirports = () => {
       airports.forEach((airport) => {
         domString += airportComponent.buildAirport(airport);
       });
+      utils.printToDom('dashboard-nav-link', 'Airports');
       utils.printToDom('the-breakroom', '');
       utils.printToDom('hub', domString);
     })

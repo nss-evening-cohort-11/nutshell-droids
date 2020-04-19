@@ -20,6 +20,7 @@ const printPlanes = () => {
       planes.forEach((plane) => {
         domString += planeComponent.buildPlanes(plane);
       });
+      utils.printToDom('dashboard-nav-link', 'Planes');
       utils.printToDom('the-breakroom', '');
       utils.printToDom('the-hangar', domString);
     })

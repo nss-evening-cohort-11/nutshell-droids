@@ -44,6 +44,7 @@ const printDashboard = () => {
   utils.printToDom('the-lounge', '');
   utils.printToDom('eat', '');
   utils.printToDom('the-breakroom', domString);
+  utils.printToDom('dashboard-nav-link', '');
 };
 
 const dashBoardEvents = () => {
