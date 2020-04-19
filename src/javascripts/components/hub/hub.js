@@ -1,3 +1,6 @@
+import firebase from 'firebase/app';
+import 'firebase/auth';
+
 import airportComponent from './airportComponent';
 import airportData from '../../helpers/data/hubData';
 import showModalPrint from './editAirport';
@@ -37,25 +40,27 @@ const createAirport = (e) => {
     .catch((err) => console.error('could not add airport', err));
 };
 
-const editAirport = (e) => {
+const editAirportEvent = (e) => {
   e.preventDefault();
+  const { uid } = firebase.auth().currentUser;
+  const userId = uid;
   const radio = $('#radio').is(':checked');
-  const airportId = e.target.closest('.airport').id;
-  const changeAirport = {
-    airportName: $('#name').val(),
-    imgUrl: $('#image').val(),
-    city: $('#city').val(),
-    state: $('#state').val(),
-    country: $('#country').val(),
-    airportCode: $('#airportCode').val(),
-    numFlights: $('#numFlights').val(),
-    numRestaurants: $('#restaurants').val(),
-    numShuttles: $('#shuttles').val(),
-    numHotels: $('#hotels').val(),
+  const selectedAirportId = e.target.closest('.get-edit-id').id;
+  const changedAirport = {
+    airportName: $('#edit-name').val(),
+    imgUrl: $('#edit-imgUrl').val(),
+    city: $('#edit-city').val(),
+    state: $('#edit-state').val(),
+    country: $('#edit-country').val(),
+    airportCode: $('#edit-code').val(),
+    numFlights: $('#edit-flights').val(),
+    numRestaurants: $('#edit-restaurants').val(),
+    numShuttles: $('#edit-shuttles').val(),
+    numHotels: $('#edit-hotels').val(),
     isInternational: radio,
+    uid: userId,
   };
-  console.log('this is the updated', changeAirport);
-  airportData.updateAirport(airportId)
+  airportData.updateAirport(selectedAirportId, changedAirport)
     .then(() => {
       // eslint-disable-next-line no-use-before-define
       printAirports();
@@ -140,7 +145,7 @@ const printAirports = () => {
           </div>
         </div>
         <div class="modal fade" id="airportModal" tabindex="-1" role="dialog" aria-labelledby="airportModalLabel" aria-hidden="true">
-            <div id="printAirportModal" class="modal-dialog" role="document">
+            <div id="printAirportModal" class="modal-dialog modal-lg" role="document">
             </div>
             </div>`;
       domString += '<div class="d-flex flex-wrap justify-content-center">';
@@ -157,11 +162,12 @@ const clickEvent = () => {
   $('body').on('click', '.delete-airport', removeAirport);
   $('body').on('click', '.add-airport-btn', createAirport);
   $('body').on('click', '.edit-button', showModalEvent);
+  $('body').on('click', '#save-airport-edit', editAirportEvent);
 };
 
 export default {
   printAirports,
   clickEvent,
-  editAirport,
   showModalEvent,
+  editAirportEvent,
 };
