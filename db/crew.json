@@ -5,15 +5,15 @@
 		"baseCity": "Nashville",
 		"position": "Flight Attendant",
 		"hireDate": "02/24/2019",
-		"img": "https://drive.google.com/open?id=1FeMjXxZCzSXJz7JqhZNOthGZ9cFgC9iW"
+		"img": "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
 	},
 	"crew2": {
 		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
-		"name": "Johnathan Smart",
+		"name": "Randy Carr",
 		"baseCity": "Chicago",
 		"position": "Flight Attendant",
 		"hireDate": "08/28/2015",
-		"img": "https://drive.google.com/open?id=1woz8RZ3pizD6wZIoWGZ7vIMa5h7t0YFN"
+		"img": "https://images.pexels.com/photos/2379429/pexels-photo-2379429.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
 	},
 	"crew3": {
 		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
@@ -21,7 +21,7 @@
 		"baseCity": "Ohio",
 		"position": "Pilot",
 		"hireDate": "07/21/2015",
-		"img": "https://drive.google.com/open?id=1Jb-UG6VX_62dFEuSIAj7Mr6csFMfhiCJ"
+		"img": "https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
 	},
 	"crew4": {
 		"uid": "w34PiLDVduQbTdTkxMzvGAphWxE3",
@@ -29,7 +29,7 @@
 		"baseCity": "Nashville",
 		"position": "Mechanic",
 		"hireDate": "03/16/2016",
-		"img": "https://drive.google.com/open?id=1qlevmQHN39_ZtILycd2YCgzzc-0TYv02"
+		"img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
 	},
 	"crew5": {
 		"uid": "w34PiLDVduQbTdTkxMzvGAphWxE3",
@@ -37,7 +37,7 @@
 		"baseCity": "Nashville",
 		"position": "Co-Pilot",
 		"hireDate": "09/21/2013",
-		"img": "https://drive.google.com/open?id=17IhRk1k0DOKVgTo3p-XOe_KE9knjiUlw"
+		"img": "https://images.pexels.com/photos/412840/pexels-photo-412840.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
 	},
 	"crew6": {
 		"uid": "w34PiLDVduQbTdTkxMzvGAphWxE3",
@@ -45,7 +45,7 @@
 		"baseCity": "Houston",
 		"position": "Pilot",
 		"hireDate": "10/13/2015",
-		"img": "https://drive.google.com/open?id=1x68q5OFB8n8hHUZrV6ZT_77mdPuUit9k"
+		"img": "https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
 	},
 	
 	"crew7": {
@@ -54,7 +54,7 @@
 		"baseCity": "Nashville",
 		"position": "Flight Attendant",
 		"hireDate": "02/24/2019",
-		"img": "https://drive.google.com/open?id=1ztFor144ZCAVWttL7lmGIN7IXjV4MNUr"
+		"img": "https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
 	},
 	"crew8": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
@@ -62,7 +62,7 @@
 		"baseCity": "Chicago",
 		"position": "Flight Attendant",
 		"hireDate": "08/28/2015",
-		"img": "https://drive.google.com/open?id=1VuwrMOzHKuEnGnvjEGy8hRRz4RL2zXJK"
+		"img": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
 	},
 	"crew9": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
@@ -70,7 +70,7 @@
 		"baseCity": "Ohio",
 		"position": "Pilot",
 		"hireDate": "07/21/2015",
-		"img": "https://drive.google.com/open?id=1DRFoOpB6fer9q4r4M-Sw7uaveABkzsc2"
+		"img": "https://images.pexels.com/photos/594610/pexels-photo-594610.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
 	},
 	"crew10": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
@@ -78,7 +78,7 @@
 		"baseCity": "Memphis",
 		"position": "Mechanic",
 		"hireDate": "03/16/2016",
-		"img": "https://drive.google.com/open?id=18O0y8Brtu3g4xEb9CTIWAKJ-iQYaamoQ"
+		"img": "https://images.pexels.com/photos/939817/pexels-photo-939817.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
 	},
 	"crew11": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
@@ -86,7 +86,7 @@
 		"baseCity":"Orlando",
 		"position": "Co-Pilot",
 		"hireDate": "11/22/2013",
-		"img": "https://drive.google.com/open?id=1Gd38ab6_Gxw8ffvcNbeFPYBW8D0QmDeY"
+		"img": "https://images.pexels.com/photos/1680317/pexels-photo-1680317.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
 	},
 	"crew12": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
@@ -94,6 +94,6 @@
 		"baseCity": "Louisville",
 		"position": "Pilot",
 		"hireDate": "10/12/2015",
-		"img": "https://drive.google.com/open?id=1NkkayewVGp2auqSHpHzmsZGei-2VZWWt"
+		"img": "https://images.pexels.com/photos/1384219/pexels-photo-1384219.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
 	}
 }

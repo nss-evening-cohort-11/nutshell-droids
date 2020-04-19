@@ -1,8 +1,7 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
+import dashboard from '../../components/dashboard/dashboard';
 import hub from '../../components/hub/hub';
-
-import hangar from '../../components/hangar/hangar';
 
 const checkLoginStatus = () => {
   firebase.auth().onAuthStateChanged((user) => {
@@ -15,9 +14,9 @@ const checkLoginStatus = () => {
       $('#navbar-logout-button').addClass('hide');
       $('#google-auth').removeClass('hide');
     }
+    dashboard.dashBoardEvents();
+    dashboard.printDashboard();
     hub.clickEvent();
-    hangar.printPlanes();
-    hub.printAirports();
   });
 };
 
