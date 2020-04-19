@@ -2,6 +2,7 @@ import utils from '../../helpers/utils';
 import airportData from '../../helpers/data/hubData';
 
 const showAirportModal = (selectedAirport) => {
+  $('#airportModal').modal('show');
   airportData.getSingleAirport(selectedAirport)
     .then((response) => {
       const airport = response.data;
