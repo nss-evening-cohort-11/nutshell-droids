@@ -4,9 +4,11 @@ const buildAirport = (airport) => {
         <div id="${airport.id}" class="fancy-card airport show-delete-button">
         <div class="additional">
           <div class="user-card">
-            <img height="350" src="${airport.imgUrl}" alt="image of ${airport.airportName}">
-            <i class="delete-airport delete-btn far fa-2x fa-times-circle"></i>
-          </div>
+            <img height="350" src="${airport.imgUrl}" alt="image of ${airport.airportName}">`;
+            
+            if(firebase.auth().currentUser) ? '<i class="delete-airport delete-btn hide far fa-2x fa-times-circle"></i>';
+          
+  domString += `</div>
           <div class="more-info shading" >
             <div class="card-title mb-1 mt-3 ml-3 mr-3">${airport.airportName}</div>
             <div class="coords">
