@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);//
+}
+.delete-btn{
+  color: #ffffff00;
+}
+>>>>>>> 627a8f2c03ee43bb5b5d5b9b0ae2ecba0dd38727
 .fancy-card:hover .delete-btn {
   color: white;
   z-index: 1;
@@ -33,7 +45,6 @@
 .airport {
   background: linear-gradient( rgba(42, 92, 158, 0.4), rgba(42, 92, 158, .8)) !important; 
 }
-
 .fancy-card {
   width: 450px;
   height: 250px;

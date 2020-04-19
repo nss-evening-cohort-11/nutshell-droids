@@ -24,7 +24,6 @@ const printDashboard = () => {
   domString += '</div>';
   domString += '<div class="card col-4 m-2 p-0">';
   domString += '<div class="card-header">Crew</div>';
-  // eslint-disable-next-line max-len
   domString += '<img class="card-img-top" id="dash-card-crews" height="297px" src="https://www.nycaviation.com/newspage/wp-content/gallery/photos-meet-the-stars-of-airport-247-miami/airport-247-miami_ss_sneak-peek_001_596x334.jpg" alt="Picture of crew members">';
   domString += '<div class="card-body">';
   domString += '<p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>';

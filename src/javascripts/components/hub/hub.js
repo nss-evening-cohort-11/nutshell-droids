@@ -75,6 +75,7 @@ const printAirports = () => {
               </div>
               <div class="col-md-2 mb-3">
                 <label for="numFlights">Flights: </label>
+<<<<<<< HEAD
                 <input type="number" class="form-control" id="numFlights">
               </div>
               <div class="col-md-2 mb-3">
@@ -88,6 +89,21 @@ const printAirports = () => {
               <div class="col-md-2 mb-3">
                 <label for="hotels">Hotels:</label>
                 <input type="number" class="form-control" id="hotels">
+=======
+                <input type="text" class="form-control" id="numFlights">
+              </div>
+              <div class="col-md-2 mb-3">
+                <label for="restaurants">Restaurants: </label>
+                <input type="text" class="form-control" id="restaurants">
+              </div>
+              <div class="col-md-2 mb-3">
+                <label for="shuttles">Shuttles:</label>
+                <input type="text" class="form-control" id="shuttles">
+              </div>
+              <div class="col-md-2 mb-3">
+                <label for="hotels">Hotels:</label>
+                <input type="text" class="form-control" id="hotels">
+>>>>>>> 627a8f2c03ee43bb5b5d5b9b0ae2ecba0dd38727
               </div>
               <div class="col-md-2 mb-3 mt-3 pl-4 form-check">    
                   <label><input type="radio" name="optradio" value="false" checked>Domestic</label>
@@ -95,12 +111,15 @@ const printAirports = () => {
               </div>
             </div>
             <div class="form-row">
+<<<<<<< HEAD
               <div class="col-md-12 mb-3">
                 <label for="image">Description: </label>
                 <input type="text" class="form-control" id="image">
               </div>
             </div>
             <div class="form-row">
+=======
+>>>>>>> 627a8f2c03ee43bb5b5d5b9b0ae2ecba0dd38727
               <div class="col-md-10">
                 <label for="image">City Image Url:</label>
                 <input type="text" class="form-control" id="image">

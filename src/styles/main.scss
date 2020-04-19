@@ -9,14 +9,12 @@ body {
 .hide {
   display: none;
 }
-
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);//
+.iconblue{
+  color: #2b67ac;
 }
-
+.btnblue {
+  background-color: #2b67ac;
+}
 .fancy-card .shading {
   background-color: hsla(0, 2%, 33%, 0.5);
 }
