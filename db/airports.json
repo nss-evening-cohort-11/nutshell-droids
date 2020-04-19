@@ -11,7 +11,8 @@
 		"numFlights": 242,
 		"numRestaurants": 22,
 		"numShuttles": 12,
-		"numHotels": 6
+		"numHotels": 6,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar."
 		
 	},
 	"airport2": {
@@ -26,7 +27,8 @@
 		"numFlights": 473,
 		"numRestaurants": 29,
 		"numShuttles": 18,
-		"numHotels": 19
+		"numHotels": 19,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar."
 	},
 	"airport3": {
 		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
@@ -40,7 +42,8 @@
 		"numFlights": 608,
 		"numRestaurants": 46,
 		"numShuttles": 42,
-		"numHotels": 106
+		"numHotels": 106,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar."
 	},
 	"airport4": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
@@ -54,7 +57,8 @@
 		"numFlights": 354,
 		"numRestaurants": 24,
 		"numShuttles": 4,
-		"numHotels": 8
+		"numHotels": 8,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar."
 	},
 	"airport5": {
 		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
@@ -68,7 +72,8 @@
 		"numFlights": 204,
 		"numRestaurants": 15,
 		"numShuttles": 16,
-		"numHotels": 7
+		"numHotels": 7,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar."
 	},
 	"airport6": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2 ",
@@ -82,7 +87,8 @@
 		"numFlights": 254,
 		"numRestaurants": 14,
 		"numShuttles": 11,
-		"numHotels": 4
+		"numHotels": 4,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar."
 	},
 	"airport7": {
 		"uid": "w34PiLDVduQbTdTkxMzvGAphWxE3",
@@ -96,7 +102,8 @@
 		"numFlights": 469,
 		"numRestaurants": 21,
 		"numShuttles": 17,
-		"numHotels": 18
+		"numHotels": 18,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar."
 	},
 	"airport8": {
 		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
@@ -110,7 +117,8 @@
 		"numFlights": 873,
 		"numRestaurants": 53,
 		"numShuttles": 50,
-		"numHotels": 45
+		"numHotels": 45,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar."
 	},
 	"airport9": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
@@ -124,7 +132,8 @@
 		"numFlights": 204,
 		"numRestaurants": 27,
 		"numShuttles": 8,
-		"numHotels": 16
+		"numHotels": 16,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar."
 	},
 	"airport10": {
 		"uid": "w34PiLDVduQbTdTkxMzvGAphWxE3",
@@ -138,7 +147,8 @@
 		"numFlights": 477,
 		"numRestaurants": 32,
 		"numShuttles": 18,
-		"numHotels": 22
+		"numHotels": 22,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar."
 	},
 	"airport11": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
@@ -152,7 +162,8 @@
 		"numFlights": 601,
 		"numRestaurants": 38,
 		"numShuttles": 25,
-		"numHotels": 52
+		"numHotels": 52,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar."
 	},
 	"airport12": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
@@ -166,6 +177,7 @@
 		"numFlights": 366,
 		"numRestaurants": 35,
 		"numShuttles": 11,
-		"numHotels": 14
+		"numHotels": 14,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar."
 	}
 }
