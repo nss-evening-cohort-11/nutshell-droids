@@ -43,6 +43,7 @@ const printDashboard = () => {
   utils.printToDom('hub', '');
   utils.printToDom('the-hangar', '');
   utils.printToDom('the-lounge', '');
+  utils.printToDom('eat', '');
   utils.printToDom('the-breakroom', domString);
 };
 
