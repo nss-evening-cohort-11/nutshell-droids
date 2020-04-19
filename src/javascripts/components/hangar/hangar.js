@@ -2,6 +2,16 @@ import planesData from '../../helpers/data/planesData';
 import utils from '../../helpers/utils';
 import planeComponent from '../plane/plane';
 
+const removePlane = (e) => {
+  const selectedPlaneId = e.target.closest('.fancy-card').id;
+  planesData.deletePlanes(selectedPlaneId)
+    .then(() => {
+      // eslint-disable-next-line no-use-before-define
+      printPlanes();
+    })
+    .catch((err) => console.error('cannot remove airport', err));
+};
+
 const printPlanes = () => {
   planesData.getPlanes()
     .then((planes) => {
@@ -16,4 +26,8 @@ const printPlanes = () => {
     .catch((err) => console.error('get planes broke', err));
 };
 
-export default { printPlanes };
+const clickEvent = () => {
+  $('body').on('click', '.delete-planes', removePlane);
+};
+
+export default { printPlanes, clickEvent };
