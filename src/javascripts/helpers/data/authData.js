@@ -2,6 +2,7 @@ import firebase from 'firebase/app';
 import 'firebase/auth';
 import dashboard from '../../components/dashboard/dashboard';
 import hub from '../../components/hub/hub';
+import crew from '../../components/crew/crew';
 
 const checkLoginStatus = () => {
   firebase.auth().onAuthStateChanged((user) => {
@@ -17,6 +18,7 @@ const checkLoginStatus = () => {
     dashboard.dashBoardEvents();
     dashboard.printDashboard();
     hub.clickEvent();
+    crew.clickEvent();
   });
 };
 

@@ -2,6 +2,16 @@ import crewComponent from '../crew/crew';
 import crewData from '../../helpers/data/crewData';
 import utils from '../../helpers/utils';
 
+const removeCrew = (e) => {
+  const selectedCrewId = e.target.closest('.fancy-card').id;
+  crewData.deleteCrew(selectedCrewId)
+    .then(() => {
+      // eslint-disable-next-line no-use-before-define
+      printCrew();
+    })
+    .catch((err) => console.error('fire them boys', err));
+};
+
 const printCrew = () => {
   crewData.getAllCrews()
     .then((crews) => {
@@ -16,4 +26,8 @@ const printCrew = () => {
     .catch((err) => console.error('The crew is not here', err));
 };
 
-export default { printCrew };
+const clickEvent = () => {
+  $('body').on('click', '.delete-crew', removeCrew);
+};
+
+export default { printCrew, clickEvent };

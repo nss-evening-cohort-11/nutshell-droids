@@ -1,10 +1,11 @@
 const buildCrew = (crew) => {
   let domString = '';
   domString += `
-      <div class="fancy-card crew">
+  <div id="${crew.id}" class="fancy-card crew show-delete-button">
         <div class="additional">
           <div class="user-card">
             <img class="center" height="250px" src="${crew.img}" alt="image of ${crew.name}">
+            <i class="delete-crew delete-btn far fa-2x fa-times-circle"></i>
           </div>
           <div class="more-info shading" >
             <div class="card-title mb-1 mt-3 ml-3 mr-3">${crew.name}</div>
