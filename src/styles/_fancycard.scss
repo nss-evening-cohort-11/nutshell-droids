@@ -1,3 +1,21 @@
+.description-font {
+  font-size: 13.5px;
+}
+
+.iconblue{
+  color: #2b67ac;
+}
+
+.btnblue {
+  background-color: #2b67ac;
+}
+
+.foodBold{
+  font-size: 1.5rem !important;
+}
+.foodBold2{
+  font-size: 2rem !important;
+}
 .center {
   position: absolute;
   top: 50%;
@@ -5,6 +23,9 @@
   transform: translate(-50%, -50%);//
 }
 
+.delete-btn{
+  color: #ffffff00;
+}
 .fancy-card:hover .delete-btn {
   color: white;
   z-index: 1;
@@ -31,24 +52,57 @@
 .edit-btn:hover{
  color: yellow !important;
 }
+.foodHeading{
+color: white;
+background-color: #2b67ac7c;
+width: 77%;
+}
+.edit-btn:hover{
+  color: yellow !important;
+ }
+
+ .edit-btn{
+   color: #ffffff00;
+ }
+
+ .fancy-card:hover .edit-btn {
+   color: white;
+   z-index: 1;
+   position: absolute;
+   left: 10px;
+   bottom: 10px;
+ }
+
+.iconblue{
+  color: #2b67ac;
+}
+
+.btnblue {
+  background-color: #0c4a91;
+}
 
 .fancy-card .shading {
   background-color: hsla(0, 2%, 33%, 0.5);
 }
 
 .crew {
-  background: linear-gradient(rgba(164, 194, 249, 1), rgba(164, 194, 249, 0.4)) !important; 
-}
-.plane {
-  background: linear-gradient(rgba(204, 85, 0, 1), rgba(204, 85, 0, 0.4)) !important; 
-}
-.airport {
-  background: linear-gradient( rgba(42, 92, 158, 0.4), rgba(42, 92, 158, .8)) !important; 
+  background: linear-gradient( rgba(164, 194, 249, 0.4), rgba(164, 194, 249, 1)) !important;
 }
 
+.plane {
+  background: linear-gradient(rgba(204, 85, 0, 0.4),rgba(204, 85, 0, 0.774)) !important;
+}
+
+.airport {
+  background: linear-gradient( rgba(190, 96, 124, 0.24), rgba(216, 118, 156, 0.664)) !important;
+}
+.food {
+  background: linear-gradient(rgba(232, 236, 18, 0.253), rgba(229, 233, 14, 0.555)) !important;
+}
 .fancy-card {
   width: 450px;
   height: 250px;
+  min-width: 450px;
   background-color: #fff;
   background: linear-gradient(#f8f8f8, #fff);
   box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
@@ -68,7 +122,7 @@
   position: absolute;
   width: 150px;
   height: 100%;
-  background: linear-gradient(#dE685E, #EE786E);
+  background: linear-gradient( rgba(42, 92, 158, 0.4), rgba(42, 92, 158, .8));
   transition: width 0.4s;
   overflow: hidden;
   z-index: 2;

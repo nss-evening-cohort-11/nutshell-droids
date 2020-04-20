@@ -5,27 +5,29 @@
 body {
   background-color: white;
 }
-
 .hide {
   display: none;
 }
-
+.iconblue{
+  color: #2b67ac;
+}
+.btnblue {
+  background-color: #2b67ac;
+}
 .center {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);//
 }
-
 .fancy-card .shading {
   background-color: hsla(0, 2%, 33%, 0.5);
 }
-
 // --------------------------------------------------------footer
 .footer{
   background: #2b67ac;
   color:white;
-  
+
   .links{
     ul {list-style-type: none;}
     li a{
@@ -36,7 +38,7 @@ body {
         color:#4180CB;
         }
     }
-  }  
+  }
   .about-company{
     i{font-size: 25px;}
     a{
@@ -44,10 +46,10 @@ body {
       transition: color .2s;
       &:hover{color:#4180CB}
     }
-  } 
+  }
   .location{
     i{font-size: 18px;}
   }
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);}
 }
 

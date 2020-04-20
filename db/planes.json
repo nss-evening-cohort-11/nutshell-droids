@@ -7,7 +7,8 @@
 		"type": "Jumbo Passenger Jet",
 		"seatingCapacity": 296,
 		"price": "275 M",
-		"speed": "945 Km/h"
+		"speed": "945 Km/h",
+		"description": "The Boeing 787 Dreamliner is a wide-body airliner manufactured by Boeing Commercial Airplanes. After dropping its Sonic Cruiser project, Boeing announced the conventional 7E7 on January 29, 2003, focused on efficiency."
 	},
 	"plane2": {
 		"uid": "w34PiLDVduQbTdTkxMzvGAphWxE3",
@@ -17,7 +18,8 @@
 		"type": "Passenger Turbo Prop",
 		"seatingCapacity": 81,
 		"price": "32.2 M",
-		"speed": "667 Km/h"
+		"speed": "667 Km/h",
+		"description": "A turboprop aircraft designed for shorter distance flights, the Bombardier Q400 features 76 comfortable seats and boarding doors in both the front and rear of the plane for faster passenger loading and deplaning."
 	},
 	"plane3": {
 		"uid": "w34PiLDVduQbTdTkxMzvGAphWxE3",
@@ -27,7 +29,9 @@
 		"type": "Light Passenger Jet",
 		"seatingCapacity": 76,
 		"price": "45.7 M",
-		"speed": "889 Km/h"
+		"speed": "889 Km/h",
+		"description": "Designed for short to mid-range flights, the Embraer 175 features 76 comfortable, wide seats; with no middle seats, every passenger has either a window or aisle seat."
+
 	},
 	"plane4": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
@@ -37,7 +41,9 @@
 		"type": "Mid-Size Passenger Jet",
 		"seatingCapacity": 440,
 		"price": "366.5 M",
-		"speed": "945 Km/h"
+		"speed": "945 Km/h",
+		"description": "The Airbus A350 XWB is a family of long-range, wide-body airliners developed by Airbus. The first A350 design proposed by Airbus in 2004, in response to the Boeing 787 Dreamliner, would have been a development of the A330 with composite wings and new engines."
+
 	},
 	"plane5": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
@@ -47,7 +53,9 @@
 		"type": "Jumbo Passenger Jet",
 		"seatingCapacity": 660,
 		"price": "146.7 M",
-		"speed": "939 Km/h"
+		"speed": "939 Km/h",
+		"description": "The Boeing 747 is a large wide-body airliner and cargo aircraft manufactured by Boeing Commercial Airplanes in the United States. After introducing the 707 in October 1958, Pan Am wanted a jet 2½ times its size, to reduce its seat cost by 30% to democratize air travel."
+
 	},
 	"plane6": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
@@ -57,7 +65,9 @@
 		"type": "Jumbo Passenger Jet",
 		"seatingCapacity": 868,
 		"price": "350 M",
-		"speed": "1,087 Km/h"
+		"speed": "1,087 Km/h",
+		"description": "The Airbus A380 is the world's largest passenger airliner, a wide-body aircraft manufactured by Airbus. Airbus studies started in 1988 and the project was announced in 1990 to challenge the dominance of the Boeing 747 in the long haul market."
+
 
 	},
 	"plane7": {
@@ -68,7 +78,9 @@
 		"type": "Passenger Turbo Prop",
 		"seatingCapacity": 78,
 		"price": "26 M",
-		"speed": "509 Km/h"
+		"speed": "509 Km/h",
+		"description": "The ATR 72-600 benefits from the widest cabin in the turboprop market, with the new Armonia cabin, new ergonomic design for greater comfort, new seats and wider overhead bins with 30% more roller bags stowage."
+
 	},
 	"plane8": {
 		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
@@ -78,7 +90,9 @@
 		"type": "Passenger Turbo Prop",
 		"seatingCapacity": 34,
 		"price": "10 M",
-		"speed": "522 Km/h"
+		"speed": "522 Km/h",
+		"description": "The Saab 340 is a Swedish twin-engine turboprop aircraft designed and initially produced by Saab AB and Fairchild Aircraft. It is designed to seat 30-36 passengers and, as of July 2018, there were 240 operational aircraft used by 34 different operators"
+
 	},
 	"plane9": {
 		"uid": "SD2ONqbDVCb6xwIoTBbWqSLUYFe2",
@@ -88,7 +102,9 @@
 		"type": "Mid Size Passenger Jet",
 		"seatingCapacity": 189,
 		"price": "35 M",
-		"speed": "895 Km/h"
+		"speed": "895 Km/h",
+		"description": "The Douglas DC-8 is a narrow-body airliner built by the American Douglas Aircraft Company. After losing the May 1954 USAF tanker requirement to the Boeing KC-135, Douglas announced in July 1955 its derived jetliner project."
+
 	},
 	"plane10": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
@@ -98,7 +114,9 @@
 		"type": "Light Passenger Jet",
 		"seatingCapacity": 80,
 		"price": "20 M",
-		"speed": "743 Km/h"
+		"speed": "743 Km/h",
+		"description": "The Fokker 70 is a narrow-body, twin-engined, medium-range, turbofan regional airliner produced by Fokker as a smaller version of the Fokker 100. Both the F70 and F100 were preceded by the first jet airliner manufactured by Fokker, the Fokker F28 Fellowship."
+
 
 	},
 	"plane11": {
@@ -109,7 +127,9 @@
 		"type": "Jumbo Passenger Jet",
 		"seatingCapacity": 406,
 		"price": "296.4 M",
-		"speed": "919 Km/h"
+		"speed": "919 Km/h",
+		"description": "The Airbus A330neo is a wide-body jet airliner developed by Airbus from the Airbus A330. A new version with modern engines comparable to those developed for the Boeing 787 was called for by owners of the current A330."
+
 	},
 	"plane12": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
@@ -119,7 +139,9 @@
 		"type": "Passenger Turbo Prop",
 		"seatingCapacity": 58,
 		"price": "15 M",
-		"speed": "682 Km/h"
+		"speed": "682 Km/h",
+		"description": "The Saab 2000 is a twin-engined high-speed turboprop airliner built by Saab. It is designed to carry 50–58 passengers and cruise at a speed of 665 km/h."
+
 	}
 }
 

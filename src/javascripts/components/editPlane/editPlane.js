@@ -1,9 +1,9 @@
 import utils from '../../helpers/utils';
-import planesData from '../../helpers/data/planesData';
+import planesDataComponent from '../../helpers/data/planesData';
 
 
 const showForm = (planeId) => {
-  planesData.getSinglePlane(planeId)
+  planesDataComponent.getSinglePlane(planeId)
     .then((resp) => {
       const plane = resp.data;
       let domString = '';
