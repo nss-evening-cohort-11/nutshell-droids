@@ -1,5 +1,5 @@
 import hangarComponent from '../hangar/hangar';
-import hubComponent from '../hub/hub';
+import airportComponent from '../hub/hub';
 import loungeComponent from '../theLounge/theLounge';
 import foodComponent from '../food/food';
 
@@ -50,7 +50,7 @@ const printDashboard = () => {
 
 const dashBoardEvents = () => {
   $('body').on('click', '#dash-card-crews', loungeComponent.printCrew);
-  $('body').on('click', '#dash-card-airports', hubComponent.printAirports);
+  $('body').on('click', '#dash-card-airports', airportComponent.printAirports);
   $('body').on('click', '#dash-card-planes', hangarComponent.printPlanes);
   $('body').on('click', '#dash-card-foods', foodComponent.printEntrees);
 };

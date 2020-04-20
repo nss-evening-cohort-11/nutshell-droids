@@ -73,7 +73,7 @@ const showAirportModal = (selectedAirport) => {
             </div>
             <div class="col-md-4 ml-auto pt-4">
               <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-              <button id="save-airport-edit" type="button" class="btn btn-secondary" data-dismiss="modal">Save changes</button>
+              <button id="save-airport-edit" type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
             </div>
           </div>
         </div>

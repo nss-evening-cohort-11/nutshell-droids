@@ -4,6 +4,7 @@
 
 body {
   background-color: white;
+  min-width: 500px;
 }
 .hide {
   display: none;
@@ -22,6 +23,9 @@ body {
 }
 .fancy-card .shading {
   background-color: hsla(0, 2%, 33%, 0.5);
+}
+.card{
+  min-width: 300px;
 }
 // --------------------------------------------------------footer
 .footer{

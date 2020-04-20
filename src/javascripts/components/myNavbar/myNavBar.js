@@ -25,8 +25,8 @@ const printNavbar = () => {
   domString += '<li class="nav-item active">';
   domString += '<a id="dashboard-nav-link" class="nav-link" href="#">Dashboard<span class="sr-only">(current)</span></a>';
   domString += '</li>';
-  domString += '<button id="navbar-logout-button" class="btn btn-danger">Log Out</button>';
-  domString += '<button id="google-auth" class="btn btn-danger navbar-login-button">Login</button>';
+  domString += '<button id="navbar-logout-button" class="btn btn-primary">Log Out</button>';
+  domString += '<button id="google-auth" class="btn btn-primary navbar-login-button">Login</button>';
   domString += '</ul>';
   domString += '</nav>';
   utils.printToDom('printNavbar', domString);

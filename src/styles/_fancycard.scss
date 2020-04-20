@@ -2,12 +2,27 @@
   font-size: 13.5px;
 }
 
+.btn-primary{
+  background-color: #2b67ac;
+  border-color: #2b67ac;
+}
+
+.btn-primary:hover{
+  background-color: #0e2f53;
+}
+.fa-edit, .fa-times-circle{
+  text-shadow: 1px 1px 2px rgb(14, 13, 13), 0 0 1em rgb(86, 86, 88), 0 0 0.2em rgb(2, 2, 2);
+}
 .iconblue{
   color: #2b67ac;
 }
 
+.iconblue:hover{
+  color: #0e2f53
+}
 .btnblue {
   background-color: #2b67ac;
+  border-color: #2b67ac;
 }
 
 .foodBold{
@@ -16,7 +31,7 @@
 .foodBold2{
   font-size: 2rem !important;
 }
-.center {
+.center{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -44,10 +59,6 @@ width: 77%;
 }
 .edit-btn:hover{
   color: yellow !important;
- }
-
- .edit-btn{
-   color: #ffffff00;
  }
 
  .fancy-card:hover .edit-btn {

@@ -1,10 +1,10 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
 
-import airportComponent from './airportComponent';
 import airportData from '../../helpers/data/hubData';
 import showModalPrint from './editAirport';
 import utils from '../../helpers/utils';
+import madeAirport from './airportComponent';
 
 const removeAirport = (e) => {
   const selectedAirportId = e.target.closest('.fancy-card').id;
@@ -32,6 +32,7 @@ const createAirport = (e) => {
     numHotels: $('#hotels').val(),
     isInternational: radio,
     description: $('#desc').val(),
+    uid: firebase.auth().currentUser,
   };
   airportData.addAirport(newAirport)
     .then(() => {
@@ -43,8 +44,6 @@ const createAirport = (e) => {
 
 const editAirportEvent = (e) => {
   e.preventDefault();
-  const { uid } = firebase.auth().currentUser;
-  const userId = uid;
   const radio = $('#radio').is(':checked');
   const selectedAirportId = e.target.closest('.get-edit-id').id;
   const changedAirport = {
@@ -59,7 +58,7 @@ const editAirportEvent = (e) => {
     numShuttles: $('#edit-shuttles').val(),
     numHotels: $('#edit-hotels').val(),
     isInternational: radio,
-    uid: userId,
+    uid: firebase.auth().currentUser,
     description: $('#edit-desc').val(),
   };
   airportData.updateAirport(selectedAirportId, changedAirport)
@@ -77,14 +76,14 @@ const showModalEvent = (e) => {
 };
 
 const printAirports = () => {
+  const accordianBtn = firebase.auth().currentUser === null ? '' : '<button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="iconblue fas fa-2x fa-plus-circle"></i></button>';
   airportData.getAllAirports()
     .then((airports) => {
       let domString = '';
       domString += `
       <div class="accordion" id="accordionExample">
       <h2>
-        <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        <i class="iconblue fas fa-2x fa-plus-circle"></i></button>
+        ${accordianBtn}
       </h2>
       </div>
         <div id="collapseOne" class="collapse m-2" aria-labelledby="headingOne" data-parent="#accordionExample">
@@ -159,7 +158,7 @@ const printAirports = () => {
       `;
       domString += '<div class="d-flex flex-wrap justify-content-center">';
       airports.forEach((airport) => {
-        domString += airportComponent.buildAirport(airport);
+        domString += madeAirport.buildAirport(airport);
       });
       utils.printToDom('dashboard-nav-link', 'Airports');
       utils.printToDom('the-breakroom', '');

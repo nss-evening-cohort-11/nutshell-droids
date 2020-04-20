@@ -4,6 +4,7 @@ import dashboard from '../../components/dashboard/dashboard';
 import hub from '../../components/hub/hub';
 import hangar from '../../components/hangar/hangar';
 import myNavBar from '../../components/myNavbar/myNavBar';
+// import loggedIn from '../../components/hub/airportComponent';
 
 
 const checkLoginStatus = () => {
@@ -22,6 +23,7 @@ const checkLoginStatus = () => {
     dashboard.printDashboard();
     hub.clickEvent();
     hangar.clickEvent();
+    // loggedIn.user();
   });
 };
 
