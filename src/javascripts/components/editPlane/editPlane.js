@@ -34,6 +34,10 @@ const showForm = (planeId) => {
       domString += `<input type="text" class="form-control" id="edit-plane-speed" placeholder="55" value="${plane.speed}">`;
       domString += '</div>';
       domString += '<div class="form-group">';
+      domString += '<label for="plane-description">Description</label>';
+      domString += `<input type="text" class="form-control" id="edit-plane-description" placeholder="55" value="${plane.description}">`;
+      domString += '</div>';
+      domString += '<div class="form-group">';
       domString += '<label for="plane-image">Plane Image Url</label>';
       domString += `<input type="text" class="form-control" id="edit-plane-image" placeholder="planesimage.com" value="${plane.imageUrl}">`;
       domString += '</div>';

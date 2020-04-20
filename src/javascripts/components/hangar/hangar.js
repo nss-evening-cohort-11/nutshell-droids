@@ -34,6 +34,7 @@ const updatePlane = (e) => {
     type: $('#edit-plane-type').val(),
     seatingCapacity: $('#edit-plane-seating-capacity').val(),
     price: $('#edit-plane-price').val(),
+    description: $('#edit-plane-description').val(),
     speed: $('#edit-plane-speed').val(),
   };
   planesData.updatePlane(planeId, editedPlane).then(() => {

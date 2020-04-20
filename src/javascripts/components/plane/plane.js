@@ -7,7 +7,7 @@ const buildPlanes = (plane) => {
   let domString = '';
   domString += `<div class="fancy-card plane" id=${plane.id}>`;
   domString += '<div class="additional">';
-  domString += '<div class="user-card">';
+  domString += `<div class="user-card" id=${plane.id}>`;
   domString += `<img width="450" height="250px"src="${plane.imageUrl}" alt="image of ${plane.make} ">`;
   domString += `${deletePlaneBtn}`;
   domString += `${editPlaneBtn}`;
