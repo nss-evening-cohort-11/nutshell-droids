@@ -2,7 +2,7 @@ const buildAirport = (airport) => {
   const answer = airport.isInternational ? 'Yes' : 'No';
   let domString = '';
   domString += `
-        <div id="${airport.id}" class="fancy-card airport show-delete-button">
+        <div id="${airport.id}" class="fancy-card airport">
         <div class="additional">
           <div class="user-card">
             <img height="340px" class="card-image" src="${airport.imgUrl}" alt="image of ${airport.city}">

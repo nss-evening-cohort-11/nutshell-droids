@@ -9,6 +9,12 @@
   background-color: #2b67ac;
 }
 
+.foodBold{
+  font-size: 1.5rem !important;
+}
+.foodBold2{
+  font-size: 2rem !important;
+}
 .center {
   position: absolute;
   top: 50%;
@@ -29,13 +35,18 @@
 .delete-btn:hover{
  color:red !important;
 }
+.foodHeading{
+color: white;
+background-color: #2b67ac7c; 
+width: 77%;
 
+}
 .iconblue{
   color: #2b67ac;
 }
 
 .btnblue {
-  background-color: #2b67ac;
+  background-color: #0c4a91;
 }
 
 .fancy-card .shading {
@@ -43,15 +54,18 @@
 }
 
 .crew {
-  background: linear-gradient(rgba(164, 194, 249, 1), rgba(164, 194, 249, 0.4)) !important; 
+  background: linear-gradient( rgba(164, 194, 249, 0.4), rgba(164, 194, 249, 1)) !important; 
 }
 
 .plane {
-  background: linear-gradient(rgba(204, 85, 0, 1), rgba(204, 85, 0, 0.4)) !important; 
+  background: linear-gradient(rgba(204, 85, 0, 0.4),rgba(204, 85, 0, 0.774)) !important; 
 }
 
 .airport {
-  background: linear-gradient( rgba(42, 92, 158, 0.4), rgba(42, 92, 158, .8)) !important; 
+  background: linear-gradient( rgba(190, 96, 124, 0.24), rgba(216, 118, 156, 0.664)) !important; 
+}
+.food {
+  background: linear-gradient(rgba(232, 236, 18, 0.253), rgba(229, 233, 14, 0.555)) !important; 
 }
 .fancy-card {
   width: 450px;
