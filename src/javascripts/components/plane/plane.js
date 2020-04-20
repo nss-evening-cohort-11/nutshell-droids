@@ -1,11 +1,16 @@
+import firebase from 'firebase/app';
+import 'firebase/auth';
+
 const buildPlanes = (plane) => {
+  const deletePlaneBtn = firebase.auth().currentUser === null ? '' : '<i class="delete-planes delete-btn far fa-2x fa-times-circle"></i>';
+  const editPlaneBtn = firebase.auth().currentUser === null ? '' : '<i class="edit-planes edit-btn fas fa-pencil-alt"></i>';
   let domString = '';
-  domString += '<div class="fancy-card plane">';
+  domString += `<div class="fancy-card plane" id=${plane.id}>`;
   domString += '<div class="additional">';
-  domString += `<div class="user-card" id=${plane.id}>`;
+  domString += '<div class="user-card">';
   domString += `<img width="450" height="250px"src="${plane.imageUrl}" alt="image of ${plane.make} ">`;
-  domString += '<i class="delete-planes delete-btn far fa-2x fa-times-circle"></i>';
-  domString += '<i class="edit-planes edit-btn fas fa-pencil-alt"></i>';
+  domString += `${deletePlaneBtn}`;
+  domString += `${editPlaneBtn}`;
   domString += '</div>';
   domString += '<div class="more-info shading">';
   domString += `<div class="card-title mb-3 mt-3 ml-3 mr-3">${plane.make}</div>`;
