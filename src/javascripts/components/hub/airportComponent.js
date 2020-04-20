@@ -2,7 +2,6 @@ import firebase from 'firebase/app';
 import 'firebase/auth';
 
 const buildAirport = (airport) => {
-  // const user = firebase.auth().currentUser === null ? '$(.' :
   const user = firebase.auth().currentUser === null ? '' : '<i id="auth-ap-delete" class="delete-airport delete-btn far fa-2x fa-times-circle"></i>';
   const answer = airport.isInternational ? 'Yes' : 'No';
   let domString = '';
