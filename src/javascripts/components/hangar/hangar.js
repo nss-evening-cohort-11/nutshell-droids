@@ -2,25 +2,36 @@ import planesData from '../../helpers/data/planesData';
 import utils from '../../helpers/utils';
 import planeComponent from '../plane/plane';
 import editPlane from '../editPlane/editPlane';
-// import editPlane from '../editPlane/editPlane';
 
 
 const editPlaneEvent = (e) => {
   e.preventDefault();
-  $('#planeEditModal').modal('show');
   const planeId = e.target.closest('.user-card').id;
-  editPlane.showForm();
-  planesData.getSinglePlane(planeId)
-    .then((plane) => {
-      $('#edit-plane-image').val(plane.imageUrl);
-      $('#edit-plane-make').val(plane.make);
-      $('#edit-plane-model').val(plane.model);
-      $('#edit-plane-type').val(plane.type);
-      $('#edit-plane-seating-capacity').val(plane.seatingCapacity);
-      $('#edit-plane-price').val(plane.price);
-      $('#edit-plane-speed').val(plane.speed);
+  $('#planeEditModal').modal('show');
+  editPlane.showForm(planeId);
+};
+
+
+const updatePlane = (e) => {
+  e.preventDefault();
+  const planeId = $('.edit-plane-form-tag').data('id');
+  const editedPlane = {
+    uid: utils.getMyUid,
+    imageUrl: $('#edit-plane-image').val(),
+    make: $('#edit-plane-make').val(),
+    model: $('#edit-plane-model').val(),
+    type: $('#edit-plane-type').val(),
+    seatingCapacity: $('#edit-plane-seating-capacity').val(),
+    price: $('#edit-plane-price').val(),
+    speed: $('#edit-plane-speed').val(),
+  };
+  planesData.updatePlane(planeId, editedPlane)
+    .then(() => {
+      $('#planeEditModal').modal('hide');
+      // eslint-disable-next-line no-use-before-define
+      printPlanes();
     })
-    .catch((err) => console.error('modals suck', err));
+    .catch((err) => console.error('could not update the plane', err));
 };
 
 const printPlanes = () => {
@@ -39,7 +50,7 @@ const printPlanes = () => {
 
 const clickEvent = () => {
   $('body').on('click', '.edit-planes', editPlaneEvent);
-  // $('body').on('click', '.edit-plane-btn', updatePlaneEvent);
+  $('body').on('click', '#button-save-edit-plane', updatePlane);
 };
 
-export default { printPlanes, clickEvent };
+export default { printPlanes, clickEvent, editPlaneEvent };
