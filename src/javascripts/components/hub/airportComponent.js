@@ -2,16 +2,18 @@ import firebase from 'firebase/app';
 import 'firebase/auth';
 
 const buildAirport = (airport) => {
-  const user = firebase.auth().currentUser === null ? '' : '<i id="auth-ap-delete" class="delete-airport delete-btn far fa-2x fa-times-circle"></i>';
+  const userDelete = firebase.auth().currentUser === null ? '' : '<i id="auth-ap-delete" class="delete-airport delete-btn far fa-2x fa-times-circle"></i>';
+  const userEdit = firebase.auth().currentUser === null ? '' : '<i class="edit-button edit-btn fas fa-edit fa-2x"></i>';
   const answer = airport.isInternational ? 'Yes' : 'No';
   let domString = '';
   domString += `
-        <div id="${airport.id}" class="fancy-card airport show-delete-button">
+        <div id="${airport.id}" class="fancy-card airport">
         <div class="additional">
           <div class="user-card">
             <img height="350px" src="${airport.imgUrl}" alt="image of ${airport.airportName}">;
-            ${user}
-            </div>
+            ${userDelete}
+            ${userEdit}
+          </div>
           <div class="more-info shading">
             <div class="card-title mb-1 mt-3 ml-3 mr-3">${airport.airportName}</div>
               <div class="coords">
