@@ -10,7 +10,9 @@
 .btn-primary:hover{
   background-color: #0e2f53;
 }
-
+.fa-edit, .fa-times-circle{
+  text-shadow: 1px 1px 2px rgb(14, 13, 13), 0 0 1em rgb(86, 86, 88), 0 0 0.2em rgb(2, 2, 2);
+}
 .iconblue{
   color: #2b67ac;
 }
