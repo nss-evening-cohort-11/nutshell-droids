@@ -10,6 +10,12 @@
   background-color: #2b67ac;
 }
 
+.foodBold{
+  font-size: 1.5rem !important;
+}
+.foodBold2{
+  font-size: 2rem !important;
+}
 .center {
   position: absolute;
   top: 50%;
@@ -31,6 +37,26 @@
 .delete-btn:hover{
  color:red !important;
 }
+.foodHeading{
+color: white;
+background-color: #2b67ac7c;
+width: 77%;
+}
+.edit-btn:hover{
+  color: yellow !important;
+ }
+
+ .edit-btn{
+   color: #ffffff00;
+ }
+
+ .fancy-card:hover .edit-btn {
+   color: white;
+   z-index: 1;
+   position: absolute;
+   left: 10px;
+   bottom: 10px;
+ }
 
 .edit-btn:hover{
   color: yellow !important;
@@ -53,7 +79,7 @@
 }
 
 .btnblue {
-  background-color: #2b67ac;
+  background-color: #0c4a91;
 }
 
 .fancy-card .shading {
