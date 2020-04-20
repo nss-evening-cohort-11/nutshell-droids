@@ -7,6 +7,7 @@ const buildAirport = (airport) => {
           <div class="user-card">
             <img height="340px" class="card-image" src="${airport.imgUrl}" alt="image of ${airport.city}">
             <i class="delete-airport delete-btn far fa-2x fa-times-circle"></i>
+            <i class="edit-button edit-btn fas fa-edit fa-2x"></i>
           </div>
           <div class="more-info shading">
             <div class="card-title mb-1 mt-3 ml-3 mr-3">${airport.airportName}</div>
