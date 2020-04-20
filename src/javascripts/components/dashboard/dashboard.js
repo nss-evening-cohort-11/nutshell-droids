@@ -11,21 +11,21 @@ const printDashboard = () => {
   domString += '<div class="card col-4 m-2 p-0 airport">';
   domString += '<div class="card-header"><h2>Airports</h2></div>';
   // eslint-disable-next-line max-len
-  domString += '<img class="card-img-top" id="dash-card-airports" src="https://images.pexels.com/photos/804463/pexels-photo-804463.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Picture of inside of airport">';
+  domString += '<img class="card-img-top" id="dash-card-airports" src="https://www.queeryme.com/display/viewimage_story.php?id=276629&minwidth=600&maxwidth=1000" alt="Picture of inside of airport">';
   domString += '<div class="card-body">';
   domString += '<p class="card-text">Click the image to view PanAm\'s memory making travel destinations in the Airports Dashboard. Authorized user can log in to add, delete or update each airport\'s information.</p>';
   domString += '</div>';
   domString += '</div>';
   domString += '<div class="card col-4 m-2 p-0 plane">';
   domString += '<div class="card-header"><h2>Planes</h2></div>';
-  domString += '<img class="card-img-top" id="dash-card-planes" src="https://flyfresno.com/wp-content/uploads/2017/03/fresno_terminal.png" alt="Picture of planes">';
+  domString += '<img class="card-img-top" id="dash-card-planes" src="https://scx1.b-cdn.net/csz/news/800/2019/toomanyairpl.jpg" alt="Picture of planes">';
   domString += '<div class="card-body">';
   domString += '<p class="card-text">Click the image to view PanAm\'s elite line of airplanes in the Planes Dashboard. Authorized users can log in to add, delete or update information.</p>';
   domString += '</div>';
   domString += '</div>';
   domString += '<div class="card col-4 m-2 p-0 crew">';
   domString += '<div class="card-header"><h2>Crew</h2></div>';
-  domString += '<img class="card-img-top" id="dash-card-crews" height="297px" src="https://www.nycaviation.com/newspage/wp-content/gallery/photos-meet-the-stars-of-airport-247-miami/airport-247-miami_ss_sneak-peek_001_596x334.jpg" alt="Picture of crew members">';
+  domString += '<img class="card-img-top" id="dash-card-crews" src="https://www.airlinestaffrates.com/wp-content/uploads/2017/05/1-21.jpg" alt="Picture of crew members">';
   domString += '<div class="card-body">';
   domString += '<p class="card-text">Click the image to view the amazing staff of PanAm Airlines in the Crew Dashboard. Authorized users can log in to add, delete or update information.</p>';
   domString += '</div>';
