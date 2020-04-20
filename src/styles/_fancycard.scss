@@ -5,6 +5,7 @@
 .iconblue{
   color: #2b67ac;
 }
+
 .btnblue {
   background-color: #2b67ac;
 }
@@ -15,6 +16,7 @@
   left: 50%;
   transform: translate(-50%, -50%);//
 }
+
 .delete-btn{
   color: #ffffff00;
 }
@@ -30,6 +32,22 @@
  color:red !important;
 }
 
+.edit-btn:hover{
+  color: yellow !important;
+ }
+ 
+ .edit-btn{
+   color: #ffffff00;
+ }
+
+ .fancy-card:hover .edit-btn {
+   color: white;
+   z-index: 1;
+   position: absolute;
+   left: 10px;
+   bottom: 10px;
+ }
+
 .iconblue{
   color: #2b67ac;
 }
@@ -43,15 +61,15 @@
 }
 
 .crew {
-  background: linear-gradient(rgba(164, 194, 249, 1), rgba(164, 194, 249, 0.4)) !important; 
+  background: linear-gradient(rgb(231, 237, 247), rgba(253, 254, 255, 0.4)) !important; 
 }
 
 .plane {
-  background: linear-gradient(rgba(204, 85, 0, 1), rgba(204, 85, 0, 0.4)) !important; 
+  background: linear-gradient(rgb(240, 199, 170), rgba(243, 237, 233, 0.4)) !important; 
 }
 
 .airport {
-  background: linear-gradient( rgba(42, 92, 158, 0.4), rgba(42, 92, 158, .8)) !important; 
+  background: linear-gradient( rgba(253, 220, 253, 0.4), rgba(250, 243, 250, 0.8)) !important; 
 }
 .fancy-card {
   width: 450px;
