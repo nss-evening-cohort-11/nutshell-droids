@@ -1,23 +1,19 @@
+import firebase from 'firebase/app';
+import 'firebase/auth';
+
 const buildAirport = (airport) => {
+  // const user = firebase.auth().currentUser === null ? '$(.' :
+  const user = firebase.auth().currentUser === null ? '' : '<i id="auth-ap-delete" class="delete-airport delete-btn far fa-2x fa-times-circle"></i>';
   const answer = airport.isInternational ? 'Yes' : 'No';
   let domString = '';
   domString += `
         <div id="${airport.id}" class="fancy-card airport show-delete-button">
         <div class="additional">
           <div class="user-card">
-<<<<<<< HEAD
-            <img height="350" src="${airport.imgUrl}" alt="image of ${airport.airportName}">`;
-            
-            if(firebase.auth().currentUser) ? '<i class="delete-airport delete-btn hide far fa-2x fa-times-circle"></i>';
-          
-  domString += `</div>
-          <div class="more-info shading" >
-=======
-            <img height="340px" class="card-image" src="${airport.imgUrl}" alt="image of ${airport.city}">
-            <i class="delete-airport delete-btn far fa-2x fa-times-circle"></i>
-          </div>
+            <img height="350px" src="${airport.imgUrl}" alt="image of ${airport.airportName}">;
+            ${user}
+            </div>
           <div class="more-info shading">
->>>>>>> master
             <div class="card-title mb-1 mt-3 ml-3 mr-3">${airport.airportName}</div>
               <div class="coords">
                 <span class="float-left">Airport Code: ${airport.airportCode}</span>

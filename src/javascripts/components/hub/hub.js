@@ -1,6 +1,8 @@
-import airportComponent from './airportComponent';
+import firebase from 'firebase/app';
+import 'firebase/auth';
 import airportData from '../../helpers/data/hubData';
 import utils from '../../helpers/utils';
+import madeAirport from './airportComponent';
 
 const removeAirport = (e) => {
   const selectedAirportId = e.target.closest('.fancy-card').id;
@@ -38,14 +40,14 @@ const createAirport = (e) => {
 };
 
 const printAirports = () => {
+  const user = firebase.auth().currentUser === null ? '' : '<button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="iconblue fas fa-2x fa-plus-circle"></i></button>';
   airportData.getAllAirports()
     .then((airports) => {
       let domString = '';
       domString += `
       <div class="accordion" id="accordionExample">
       <h2>
-        <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        <i class="iconblue fas fa-2x fa-plus-circle"></i></button>
+        ${user}
       </h2>
       </div>
         <div id="collapseOne" class="collapse m-2" aria-labelledby="headingOne" data-parent="#accordionExample">
@@ -116,7 +118,7 @@ const printAirports = () => {
       `;
       domString += '<div class="d-flex flex-wrap justify-content-center">';
       airports.forEach((airport) => {
-        domString += airportComponent.buildAirport(airport);
+        domString += madeAirport.buildAirport(airport);
       });
       utils.printToDom('dashboard-nav-link', 'Airports');
       utils.printToDom('the-breakroom', '');
