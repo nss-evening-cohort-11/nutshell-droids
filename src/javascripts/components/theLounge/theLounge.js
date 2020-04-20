@@ -19,9 +19,9 @@ const removeCrew = (e) => {
 const createCrew = (e) => {
   e.preventDefault();
   const newCrew = {
-    Name: $('#name').val(),
+    name: $('#name').val(),
     img: $('#img').val(),
-    baseCity: $('#basCity').val(),
+    baseCity: $('#baseCity').val(),
     position: $('#position').val(),
     hireDate: $('#hireDate').val(),
   };
@@ -39,7 +39,7 @@ const editCrewEvent = (e) => {
   const userId = uid;
   const selectedCrewId = e.target.closest('.get-edit-id').id;
   const changedCrew = {
-    Name: $('#edit-name').val(),
+    name: $('#edit-name').val(),
     img: $('#edit-img').val(),
     baseCity: $('#edit-baseCity').val(),
     position: $('#edit-position').val(),

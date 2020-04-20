@@ -8,7 +8,7 @@ const buildCrew = (crew) => {
   domString += `<div id="${crew.id}" class="fancy-card crew show-delete-button">`;
   domString += '<div class="additional">';
   domString += '<div class="user-card">';
-  domString += `<img class="center" height="250px" src=" ${crew.img}" alt="image of ${crew.name}">`;
+  domString += `<img class="center" height="250px" src=" ${crew.img}" alt="image of ${crew.img}">`;
   domString += `${userDelete}`;
   domString += `${userEdit}`;
   domString += '</div>';
