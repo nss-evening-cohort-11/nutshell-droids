@@ -23,4 +23,14 @@ const deletePlanes = (planeId) => axios.delete(`${baseUrl}/planes/${planeId}.jso
 
 const addPlanes = (newPlane) => axios.post(`${baseUrl}/planes.json`, newPlane);
 
-export default { getPlanes, deletePlanes, addPlanes };
+const getSinglePlane = (planeId) => axios.get(`${baseUrl}/planes/${planeId}.json`);
+
+const updatePlane = (planeId, editedPlane) => axios.put(`${baseUrl}/planes/${planeId}.json`, editedPlane);
+
+export default {
+  getPlanes,
+  deletePlanes,
+  getSinglePlane,
+  updatePlane,
+  addPlanes,
+};

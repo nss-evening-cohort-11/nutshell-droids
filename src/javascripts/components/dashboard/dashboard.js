@@ -8,8 +8,8 @@ import utils from '../../helpers/utils';
 const printDashboard = () => {
   let domString = '';
   domString += '<div class="d-flex flex-wrap justify-content-center text-center row ml-5 mr-5 dashboard">';
-  domString += '<div class="card col-4 m-2 p-0 airport">';
-  domString += '<div class="card-header"><h2>Airports</h2></div>';
+  domString += '<div class="card col-4 m-2 p-0">';
+  domString += '<div class="card-header">Airports</div>';
   // eslint-disable-next-line max-len
   domString += '<img class="card-img-top" id="dash-card-airports" src="https://images.pexels.com/photos/804463/pexels-photo-804463.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Picture of inside of airport">';
   domString += '<div class="card-body">';

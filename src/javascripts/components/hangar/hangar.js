@@ -1,7 +1,49 @@
+import firebase from 'firebase/app';
+import 'firebase/auth';
+
 import planesData from '../../helpers/data/planesData';
 import utils from '../../helpers/utils';
 import planeComponent from '../plane/plane';
+import editPlane from '../editPlane/editPlane';
 
+const removePlane = (e) => {
+  const selectedPlaneId = e.target.closest('.fancy-card').id;
+  planesData.deletePlanes(selectedPlaneId)
+    .then(() => {
+      // eslint-disable-next-line no-use-before-define
+      printPlanes();
+    })
+    .catch((err) => console.error('cannot remove airport', err));
+};
+
+const editPlaneEvent = (e) => {
+  e.preventDefault();
+  const planeId = e.target.closest('.user-card').id;
+  $('#planeEditModal').modal('show');
+  editPlane.showForm(planeId);
+};
+
+const updatePlane = (e) => {
+  e.preventDefault();
+  const planeId = $('.edit-plane-form-tag').data('id');
+  const editedPlane = {
+    uid: utils.getMyUid,
+    imageUrl: $('#edit-plane-image').val(),
+    make: $('#edit-plane-make').val(),
+    model: $('#edit-plane-model').val(),
+    type: $('#edit-plane-type').val(),
+    seatingCapacity: $('#edit-plane-seating-capacity').val(),
+    price: $('#edit-plane-price').val(),
+    description: $('#edit-plane-description').val(),
+    speed: $('#edit-plane-speed').val(),
+  };
+  planesData.updatePlane(planeId, editedPlane).then(() => {
+    $('#planeEditModal').modal('hide');
+    // eslint-disable-next-line no-use-before-define
+    printPlanes();
+  })
+    .catch((err) => console.error('could not update the plane', err));
+};
 const createPlane = (e) => {
   e.preventDefault();
   const newPlane = {
@@ -23,13 +65,13 @@ const createPlane = (e) => {
 };
 
 const printPlanes = () => {
+  const accordionBtn = firebase.auth().currentUser === null ? '' : '<button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> <i class="iconblue fas fa-2x fa-plus-circle"></i></button>';
   planesData.getPlanes()
     .then((planes) => {
       let domString = '';
       domString += '<div class="accordion" id="accordionExample">';
       domString += '<h2>';
-      domString += '<button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">';
-      domString += '<i class="iconblue fas fa-2x fa-plus-circle"></i></button>';
+      domString += `${accordionBtn}`;
       domString += '</h2>';
       domString += '</div>';
       domString += '<div id="collapseOne" class="collapse m-2" aria-labelledby="headingOne" data-parent="#accordionExample">';
@@ -90,7 +132,10 @@ const printPlanes = () => {
 };
 
 const clickEvent = () => {
+  $('body').on('click', '.edit-planes', editPlaneEvent);
+  $('body').on('click', '#button-save-edit-plane', updatePlane);
   $('body').on('click', '.add-plane-btn', createPlane);
+  $('body').on('click', '.delete-planes', removePlane);
 };
 
-export default { printPlanes, clickEvent };
+export default { printPlanes, clickEvent, editPlaneEvent };
