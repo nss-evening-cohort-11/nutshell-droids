@@ -31,7 +31,6 @@
 		"price": "45.7 M",
 		"speed": "889 Km/h",
 		"description": "Designed for short to mid-range flights, the Embraer 175 features 76 comfortable, wide seats; with no middle seats, every passenger has either a window or aisle seat."
-
 	},
 	"plane4": {
 		"uid": "3JAk8GGBPFZCJAjHTRaARyYo3FH2",
@@ -104,7 +103,6 @@
 		"price": "35 M",
 		"speed": "895 Km/h",
 		"description": "The Douglas DC-8 is a narrow-body airliner built by the American Douglas Aircraft Company. After losing the May 1954 USAF tanker requirement to the Boeing KC-135, Douglas announced in July 1955 its derived jetliner project."
-
 	},
 	"plane10": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
@@ -116,8 +114,6 @@
 		"price": "20 M",
 		"speed": "743 Km/h",
 		"description": "The Fokker 70 is a narrow-body, twin-engined, medium-range, turbofan regional airliner produced by Fokker as a smaller version of the Fokker 100. Both the F70 and F100 were preceded by the first jet airliner manufactured by Fokker, the Fokker F28 Fellowship."
-
-
 	},
 	"plane11": {
 		"uid": "B8v6RbOSDtNHQJ5VDxFAJry38mY2",
@@ -141,7 +137,6 @@
 		"price": "15 M",
 		"speed": "682 Km/h",
 		"description": "The Saab 2000 is a twin-engined high-speed turboprop airliner built by Saab. It is designed to carry 50–58 passengers and cruise at a speed of 665 km/h."
-
 	}
 }
 

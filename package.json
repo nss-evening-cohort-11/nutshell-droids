@@ -1,0 +1,47 @@
+{
+  "name": "nutshell-droids",
+  "version": "1.0.0",
+  "description": "## Technologies Used",
+  "main": "src/javascripts/main.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production --module-bind js=babel-loader",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahholder/nutshell-droids.git"
+  },
+  "keywords": [],
+  "author": "Sarah Holder, Stephen Castaneda, & Kenneth McEastland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarahholder/nutshell-droids/issues"
+  },
+  "homepage": "https://github.com/sarahholder/nutshell-droids#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.20.2",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.4.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1"
+  }
+}
